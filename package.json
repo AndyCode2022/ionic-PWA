@@ -1,6 +1,7 @@
 {
   "name": "my-first-react-app",
   "version": "0.1.0",
+  "homepage": "https://comp-server.uhi.ac.uk/~14023216/react/build/",
   "private": true,
   "dependencies": {
     "@ionic/pwa-elements": "^3.1.1",
