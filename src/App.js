@@ -3,19 +3,19 @@ import logo from './images/logo.jpg';
 import './App.css';
 import '@ionic/react/css/core.css';
 import { defineCustomElements } from '@ionic/pwa-elements/loader';
-import { setupIonicReact, IonImg} from '@ionic/react';
+import { setupIonicReact, IonImg } from '@ionic/react';
 import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle } from '@ionic/react';
 
 function App() {
-setupIonicReact();
-defineCustomElements(window);
+  setupIonicReact();
+  defineCustomElements(window);
 
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-    
-    <h1>Bike King Borders</h1>
+
+        <h1>Bike King Borders</h1>
         {/* <a
           className="App-link"
           href="https://reactjs.org"
@@ -48,7 +48,7 @@ defineCustomElements(window);
       </IonCard>
 
 
-         <IonCard color="primary">
+      <IonCard color="primary">
         <IonCardHeader>
           <IonCardTitle>Card Title</IonCardTitle>
           <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
@@ -179,7 +179,7 @@ defineCustomElements(window);
       </div>
     </div>
 
-    
+
   );
 }
 
