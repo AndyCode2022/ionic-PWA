@@ -4,7 +4,11 @@ import './App.css';
 import '@ionic/react/css/core.css';
 import { defineCustomElements } from '@ionic/pwa-elements/loader';
 import { setupIonicReact, IonImg } from '@ionic/react';
+<<<<<<< HEAD
 import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle } from '@ionic/react';
+=======
+import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonGrid, IonRow, IonCol } from '@ionic/react';
+>>>>>>> 8a422116589499d87aa2d5296ef4fa4854e16c82
 
 function App() {
   setupIonicReact();
@@ -48,104 +52,148 @@ function App() {
       </IonCard>
 
 
+<<<<<<< HEAD
       <IonCard color="primary">
         <IonCardHeader>
           <IonCardTitle>Card Title</IonCardTitle>
           <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
         </IonCardHeader>
+=======
+>>>>>>> 8a422116589499d87aa2d5296ef4fa4854e16c82
 
-        <IonCardContent>
-          Card Content
-        </IonCardContent>
-      </IonCard>
 
-      <IonCard color="secondary">
-        <IonCardHeader>
-          <IonCardTitle>Card Title</IonCardTitle>
-          <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-        </IonCardHeader>
+      <IonGrid>
+        <IonRow>
 
-        <IonCardContent>
-          Card Content
-        </IonCardContent>
-      </IonCard>
+          <IonCol>
 
-      <IonCard color="tertiary">
-        <IonCardHeader>
-          <IonCardTitle>Card Title</IonCardTitle>
-          <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-        </IonCardHeader>
 
-        <IonCardContent>
-          Card Content
-        </IonCardContent>
-      </IonCard>
+            <IonCard color="primary">
+              <IonCardHeader>
+                <IonCardTitle>Card Title</IonCardTitle>
+                <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+              </IonCardHeader>
 
-      <IonCard color="success">
-        <IonCardHeader>
-          <IonCardTitle>Card Title</IonCardTitle>
-          <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-        </IonCardHeader>
+              <IonCardContent>
+                Card Content
+              </IonCardContent>
+            </IonCard>
 
-        <IonCardContent>
-          Card Content
-        </IonCardContent>
-      </IonCard>
+          </IonCol>
+          <IonCol>
 
-      <IonCard color="warning">
-        <IonCardHeader>
-          <IonCardTitle>Card Title</IonCardTitle>
-          <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-        </IonCardHeader>
 
-        <IonCardContent>
-          Card Content
-        </IonCardContent>
-      </IonCard>
+            <IonCard color="secondary">
+              <IonCardHeader>
+                <IonCardTitle>Card Title</IonCardTitle>
+                <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+              </IonCardHeader>
 
-      <IonCard color="danger">
-        <IonCardHeader>
-          <IonCardTitle>Card Title</IonCardTitle>
-          <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-        </IonCardHeader>
+              <IonCardContent>
+                Card Content
+              </IonCardContent>
+            </IonCard>
 
-        <IonCardContent>
-          Card Content
-        </IonCardContent>
-      </IonCard>
+          </IonCol>
+          <IonCol>
 
-      <IonCard color="light">
-        <IonCardHeader>
-          <IonCardTitle>Card Title</IonCardTitle>
-          <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-        </IonCardHeader>
 
-        <IonCardContent>
-          Card Content
-        </IonCardContent>
-      </IonCard>
+            <IonCard color="tertiary">
+              <IonCardHeader>
+                <IonCardTitle>Card Title</IonCardTitle>
+                <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+              </IonCardHeader>
 
-      <IonCard color="medium">
-        <IonCardHeader>
-          <IonCardTitle>Card Title</IonCardTitle>
-          <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-        </IonCardHeader>
+              <IonCardContent>
+                Card Content
+              </IonCardContent>
+            </IonCard>
 
-        <IonCardContent>
-          Card Content
-        </IonCardContent>
-      </IonCard>
+          </IonCol>
 
-      <IonCard color="dark">
-        <IonCardHeader>
-          <IonCardTitle>Card Title</IonCardTitle>
-          <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-        </IonCardHeader>
 
-        <IonCardContent>
-          Card Content
-        </IonCardContent>
-      </IonCard>
+          <IonCol>
+
+
+            <IonCard color="success">
+              <IonCardHeader>
+                <IonCardTitle>Card Title</IonCardTitle>
+                <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+              </IonCardHeader>
+
+              <IonCardContent>
+                Card Content
+              </IonCardContent>
+            </IonCard>
+          </IonCol>
+
+        </IonRow>
+        <IonRow>
+
+
+          <IonCol>
+
+
+            <IonCard color="warning">
+              <IonCardHeader>
+                <IonCardTitle>Card Title</IonCardTitle>
+                <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+              </IonCardHeader>
+
+              <IonCardContent>
+                Card Content
+              </IonCardContent>
+            </IonCard>
+
+          </IonCol>
+          <IonCol>
+
+
+            <IonCard color="danger">
+              <IonCardHeader>
+                <IonCardTitle>Card Title</IonCardTitle>
+                <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+              </IonCardHeader>
+
+              <IonCardContent>
+                Card Content
+              </IonCardContent>
+            </IonCard>
+
+          </IonCol>
+          <IonCol>
+
+
+            <IonCard color="light">
+              <IonCardHeader>
+                <IonCardTitle>Card Title</IonCardTitle>
+                <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+              </IonCardHeader>
+
+              <IonCardContent>
+                Card Content
+              </IonCardContent>
+            </IonCard>
+
+          </IonCol>
+          <IonCol>
+
+
+            <IonCard color="medium">
+              <IonCardHeader>
+                <IonCardTitle>Card Title</IonCardTitle>
+                <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+              </IonCardHeader>
+
+              <IonCardContent>
+                Card Content
+              </IonCardContent>
+            </IonCard>
+
+          </IonCol>
+
+        </IonRow>
+      </IonGrid>
 
       // Nav tabs
       <ul class="nav nav-tabs" id="navId">
@@ -177,9 +225,13 @@ function App() {
         <div class="tab-pane fade" id="tab4Id" role="tabpanel"></div>
         <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
       </div>
-    </div>
+    </div >
 
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 8a422116589499d87aa2d5296ef4fa4854e16c82
   );
 }
 
