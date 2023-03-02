@@ -1,14 +1,11 @@
 import React from 'react';
 import logo from './images/logo.jpg';
+import image2 from './images/image2.jpg';
 import './App.css';
 import '@ionic/react/css/core.css';
 import { defineCustomElements } from '@ionic/pwa-elements/loader';
 import { setupIonicReact, IonImg } from '@ionic/react';
-<<<<<<< HEAD
-<<<<<<< HEAD
-import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle } from '@ionic/react';
-=======
-
+import { IonButtons, IonContent, IonHeader, IonMenu, IonMenuButton, IonPage, IonTitle, IonToolbar, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonGrid, IonRow, IonCol } from '@ionic/react';
 
 function App() {
   setupIonicReact();
@@ -17,7 +14,32 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <IonMenu contentId="main-content">
+          <IonHeader>
+            <IonToolbar>
+              <IonTitle>Menu Content</IonTitle>              
+            </IonToolbar>
+          </IonHeader>
+          <IonContent className="ion-padding">This is the menu content.</IonContent>
+          <a href="index.html">Home</a>
+          <a href="products.html">Products</a>
+          <a href="contact.html">Contact</a>
+          <a href="photoGallery.html">Photo Gallery</a>
+          <a href="mapTrails.html">Map Trails</a>
+        </IonMenu>
+        <IonPage id="main-content">
+          <IonHeader>
+            <IonToolbar>
+              <IonButtons slot="start">
+                <IonMenuButton></IonMenuButton>
+              </IonButtons>
+              <img src={logo} className="App-logo" alt="logo" />
+            </IonToolbar>
+          </IonHeader>
+          <IonContent className="ion-padding">
+            Tap the button in the toolbar to open the menu.
+          </IonContent>
+        </IonPage>
 
         <h1>Bike King Borders</h1>
         {/* <a
@@ -36,7 +58,9 @@ function App() {
         </a> */}
       </header>
 
-      <IonImg src={logo} alt="bike image"></IonImg>
+      <IonImg src={image2} alt="bike image"></IonImg>
+
+      
 
       <IonCard>
         <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
@@ -46,35 +70,22 @@ function App() {
         </IonCardHeader>
 
         <IonCardContent>
-          Get the all new carrera master bike!
+          Get the all new Kraken master bike!
         </IonCardContent>
         <ion-button fill="clear">Purchase</ion-button>
       </IonCard>
 
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <IonCard color="primary">
-        <IonCardHeader>
-          <IonCardTitle>Card Title</IonCardTitle>
-          <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-        </IonCardHeader>
-=======
->>>>>>> 8a422116589499d87aa2d5296ef4fa4854e16c82
-=======
->>>>>>> 8a422116589499d87aa2d5296ef4fa4854e16c82
-
-
       <IonGrid>
+
         <IonRow>
 
           <IonCol>
 
-
             <IonCard color="primary">
               <IonCardHeader>
-                <IonCardTitle>Card Title</IonCardTitle>
+                <IonCardTitle>Kraken Vengence</IonCardTitle>
                 <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+                <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
               </IonCardHeader>
 
               <IonCardContent>
@@ -84,11 +95,10 @@ function App() {
 
           </IonCol>
           <IonCol>
-
 
             <IonCard color="secondary">
               <IonCardHeader>
-                <IonCardTitle>Card Title</IonCardTitle>
+                <IonCardTitle>TREK SLASHER</IonCardTitle>
                 <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
               </IonCardHeader>
 
@@ -99,11 +109,10 @@ function App() {
 
           </IonCol>
           <IonCol>
-
 
             <IonCard color="tertiary">
               <IonCardHeader>
-                <IonCardTitle>Card Title</IonCardTitle>
+                <IonCardTitle>Turbo Swift</IonCardTitle>
                 <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
               </IonCardHeader>
 
@@ -114,13 +123,11 @@ function App() {
 
           </IonCol>
 
-
           <IonCol>
-
 
             <IonCard color="success">
               <IonCardHeader>
-                <IonCardTitle>Card Title</IonCardTitle>
+                <IonCardTitle>Voodini ark</IonCardTitle>
                 <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
               </IonCardHeader>
 
@@ -133,13 +140,11 @@ function App() {
         </IonRow>
         <IonRow>
 
-
           <IonCol>
-
 
             <IonCard color="warning">
               <IonCardHeader>
-                <IonCardTitle>Card Title</IonCardTitle>
+                <IonCardTitle>Dynasty raven</IonCardTitle>
                 <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
               </IonCardHeader>
 
@@ -150,11 +155,10 @@ function App() {
 
           </IonCol>
           <IonCol>
-
 
             <IonCard color="danger">
               <IonCardHeader>
-                <IonCardTitle>Card Title</IonCardTitle>
+                <IonCardTitle>Thor Light</IonCardTitle>
                 <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
               </IonCardHeader>
 
@@ -165,11 +169,10 @@ function App() {
 
           </IonCol>
           <IonCol>
-
 
             <IonCard color="light">
               <IonCardHeader>
-                <IonCardTitle>Card Title</IonCardTitle>
+                <IonCardTitle>Hades</IonCardTitle>
                 <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
               </IonCardHeader>
 
@@ -181,10 +184,9 @@ function App() {
           </IonCol>
           <IonCol>
 
-
             <IonCard color="medium">
               <IonCardHeader>
-                <IonCardTitle>Card Title</IonCardTitle>
+                <IonCardTitle>Joker Supreme</IonCardTitle>
                 <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
               </IonCardHeader>
 
@@ -198,28 +200,6 @@ function App() {
         </IonRow>
       </IonGrid>
 
-      // Nav tabs
-      <ul class="nav nav-tabs" id="navId">
-        <li class="nav-item">
-          <a href="#tab1Id" class="nav-link active">Homepage</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#tab2Id">Action</a>
-            <a class="dropdown-item" href="#tab3Id">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#tab4Id">Action</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a href="#tab5Id" class="nav-link">Another link</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link disabled">Disabled</a>
-        </li>
-      </ul>
-
       // Tab panes
       <div class="tab-content">
         <div class="tab-pane fade show active" id="tab1Id" role="tabpanel"></div>
@@ -228,18 +208,8 @@ function App() {
         <div class="tab-pane fade" id="tab4Id" role="tabpanel"></div>
         <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
       </div>
+      <footer>Bike King Borders</footer>
     </div >
-<<<<<<< HEAD
-
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 8a422116589499d87aa2d5296ef4fa4854e16c82
-=======
-
-
->>>>>>> 8a422116589499d87aa2d5296ef4fa4854e16c82
   );
 }
 
