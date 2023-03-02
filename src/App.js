@@ -5,10 +5,10 @@ import '@ionic/react/css/core.css';
 import { defineCustomElements } from '@ionic/pwa-elements/loader';
 import { setupIonicReact, IonImg } from '@ionic/react';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle } from '@ionic/react';
 =======
-import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonGrid, IonRow, IonCol } from '@ionic/react';
->>>>>>> 8a422116589499d87aa2d5296ef4fa4854e16c82
+
 
 function App() {
   setupIonicReact();
@@ -53,11 +53,14 @@ function App() {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
       <IonCard color="primary">
         <IonCardHeader>
           <IonCardTitle>Card Title</IonCardTitle>
           <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
         </IonCardHeader>
+=======
+>>>>>>> 8a422116589499d87aa2d5296ef4fa4854e16c82
 =======
 >>>>>>> 8a422116589499d87aa2d5296ef4fa4854e16c82
 
@@ -226,11 +229,16 @@ function App() {
         <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
       </div>
     </div >
+<<<<<<< HEAD
 
 
 <<<<<<< HEAD
 
 =======
+>>>>>>> 8a422116589499d87aa2d5296ef4fa4854e16c82
+=======
+
+
 >>>>>>> 8a422116589499d87aa2d5296ef4fa4854e16c82
   );
 }
