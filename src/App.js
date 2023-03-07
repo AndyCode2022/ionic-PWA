@@ -63,7 +63,7 @@ function App() {
       
 
       <IonCard>
-        <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+        <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png"/>
         <IonCardHeader>
           <IonCardTitle>Carera Master</IonCardTitle>
           <IonCardSubtitle>Cost: £350</IonCardSubtitle>
@@ -85,7 +85,7 @@ function App() {
               <IonCardHeader>
                 <IonCardTitle>Kraken Vengence</IonCardTitle>
                 <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-                <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+                <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png"/>
               </IonCardHeader>
 
               <IonCardContent>
@@ -100,6 +100,7 @@ function App() {
               <IonCardHeader>
                 <IonCardTitle>TREK SLASHER</IonCardTitle>
                 <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+                <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
               </IonCardHeader>
 
               <IonCardContent>
@@ -114,6 +115,7 @@ function App() {
               <IonCardHeader>
                 <IonCardTitle>Turbo Swift</IonCardTitle>
                 <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+                <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
               </IonCardHeader>
 
               <IonCardContent>
@@ -129,6 +131,7 @@ function App() {
               <IonCardHeader>
                 <IonCardTitle>Voodini ark</IonCardTitle>
                 <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+                <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
               </IonCardHeader>
 
               <IonCardContent>
@@ -146,6 +149,7 @@ function App() {
               <IonCardHeader>
                 <IonCardTitle>Dynasty raven</IonCardTitle>
                 <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+                <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
               </IonCardHeader>
 
               <IonCardContent>
@@ -160,6 +164,7 @@ function App() {
               <IonCardHeader>
                 <IonCardTitle>Thor Light</IonCardTitle>
                 <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+                <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
               </IonCardHeader>
 
               <IonCardContent>
@@ -174,6 +179,7 @@ function App() {
               <IonCardHeader>
                 <IonCardTitle>Hades</IonCardTitle>
                 <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+                <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
               </IonCardHeader>
 
               <IonCardContent>
@@ -188,6 +194,7 @@ function App() {
               <IonCardHeader>
                 <IonCardTitle>Joker Supreme</IonCardTitle>
                 <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+                <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
               </IonCardHeader>
 
               <IonCardContent>
