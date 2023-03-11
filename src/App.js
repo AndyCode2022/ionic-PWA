@@ -60,7 +60,6 @@ function App() {
 
       <IonImg src={image2} alt="bike image"></IonImg>
 
-      
 
       <IonCard>
         <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png"/>

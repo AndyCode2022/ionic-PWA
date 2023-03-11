@@ -8,10 +8,15 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
-
-.box {
-  
+    
+@media only screen and (min-width: 400px) and (min-width: 900px), (min-width: 1300px) {
+  .IonGrid { 
+  font-size: 50px;
+  padding: 50px;
+  border: 8px solid black;
+  background: yellow;
+  }
 }
+ 
