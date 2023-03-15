@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './images/logo.jpg';
 import image2 from './images/image2.jpg';
 import './App.css';
+// import * as Notifications from 'expo-notifications';
 import '@ionic/react/css/core.css';
 import { defineCustomElements } from '@ionic/pwa-elements/loader';
 import { setupIonicReact, IonImg } from '@ionic/react';
@@ -59,7 +60,6 @@ function App() {
       </header>
 
       <IonImg src={image2} alt="bike image"></IonImg>
-
 
       <IonCard>
         <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png"/>
@@ -206,17 +206,38 @@ function App() {
         </IonRow>
       </IonGrid>
 
-      // Tab panes
-      <div class="tab-content">
-        <div class="tab-pane fade show active" id="tab1Id" role="tabpanel"></div>
-        <div class="tab-pane fade" id="tab2Id" role="tabpanel"></div>
-        <div class="tab-pane fade" id="tab3Id" role="tabpanel"></div>
-        <div class="tab-pane fade" id="tab4Id" role="tabpanel"></div>
-        <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
-      </div>
       <footer>Bike King Borders</footer>
     </div >
+
+    // Contact
+
+    // Photo Gallery
+
+    // Bike Trails
+
   );
+
+  // // Push Notifications
+  // async function registerForPushNotificationsAsync() {
+  //   let token;
+
+  //   const { status: existingStatus } = await Notifications.getPermissionsAsync();
+  //   let finalStatus = existingStatus;
+
+  //   if (existingStatus !== 'granted') {
+  //     const { status } = await Notifications.requestPermissionsAsync();
+  //     finalStatus = status;
+  //   }
+  //   if (finalStatus !== 'granted') {
+  //     alert('Failed to get push token for push notification!');
+  //     return;
+  //   }
+  //   token = (await Notifications.getExpoPushTokenAsync()).data;
+  //   console.log(token);
+
+  //   return token;
+  // }
+
 }
 
 export default App;

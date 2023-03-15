@@ -12,11 +12,24 @@ code {
 }
     
 @media only screen and (min-width: 400px) and (min-width: 900px), (min-width: 1300px) {
-  .IonGrid { 
+
   font-size: 50px;
   padding: 50px;
   border: 8px solid black;
   background: yellow;
-  }
 }
- 
+
+/* iOS places the subtitle above the title */
+ion-card-header.ios {
+  display: flex;
+  flex-flow: column-reverse;
+}
+
+/* Set variables for all modes */
+:root {
+  /* Set the background of the entire app */
+  --ion-background-color: #ff3700;
+
+  /* Set the font family of the entire app */
+  --ion-font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Roboto', sans-serif;
+}
