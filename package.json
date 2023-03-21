@@ -1,9 +1,11 @@
+
 {
   "name": "my-first-react-app",
   "version": "0.1.0",
-  "homepage": "https://comp-server.uhi.ac.uk/~14023216/react/build/",
+  "homepage": "https://comp-server.uhi.ac.uk/~14023216/react/",
   "private": true,
   "dependencies": {
+    "@ionic-native/splash-screen": "^5.36.0",
     "@ionic/pwa-elements": "^3.1.1",
     "@ionic/react": "^6.5.2",
     "@testing-library/jest-dom": "^5.16.5",
