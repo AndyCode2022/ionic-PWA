@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './images/logo.jpg';
 import image2 from './images/image2.jpg';
 import './App.css';
+import { product } from './product.js';
 // import * as Notifications from 'expo-notifications';
 import '@ionic/react/css/core.css';
 import { defineCustomElements } from '@ionic/pwa-elements/loader';
@@ -71,7 +72,7 @@ function App() {
         <IonCardContent>
           Get the all new Kraken master bike!
         </IonCardContent>
-        <ion-button fill="clear">Purchase</ion-button>
+        <ion-button href="/components/product.js">Purchase</ion-button>
       </IonCard>
 
       <IonGrid>
@@ -90,6 +91,7 @@ function App() {
               <IonCardContent>
                 Card Content
               </IonCardContent>
+              <ion-button href="/components/product">Purchase</ion-button>
             </IonCard>
 
           </IonCol>
@@ -211,9 +213,15 @@ function App() {
 
     // Contact
 
+
+
     // Photo Gallery
 
+
+
     // Bike Trails
+
+
 
   );
 
