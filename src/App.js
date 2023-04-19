@@ -1,6 +1,11 @@
 import React from 'react';
 import logo from './images/logo.jpg';
 import image2 from './images/image2.jpg';
+import Facebook_logo from './images/Facebook_logo.png';
+import Instagram_logo from './images/Instagram_logo.png';
+import tripadvisor_logo from './images/tripadvisor_logo.png';
+import youtube_logo from './images/youtube_logo.png';
+
 import './App.css';
 // import { product } from './product.js';
 // import * as Notifications from 'expo-notifications';
@@ -8,10 +13,17 @@ import '@ionic/react/css/core.css';
 import { defineCustomElements } from '@ionic/pwa-elements/loader';
 import { setupIonicReact, IonImg } from '@ionic/react';
 import { IonButtons, IonContent, IonHeader, IonMenu, IonMenuButton, IonPage, IonTitle, IonToolbar, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonGrid, IonRow, IonCol } from '@ionic/react';
+// import { useState, useEffect, AsyncStorage } from "react";
+
 
 function App() {
   setupIonicReact();
   defineCustomElements(window);
+
+// useEffect(()=>{
+//   const timeout = useTimeout(()=> setShowSplash(false),5000)
+//   return () => clearTimeout(timeout)
+//   }, [])
 
   return (
     <div className="App">
@@ -107,6 +119,7 @@ function App() {
               <IonCardContent>
                 Card Content
               </IonCardContent>
+              <ion-button href="/components/product">Purchase</ion-button>
             </IonCard>
 
           </IonCol>
@@ -122,6 +135,7 @@ function App() {
               <IonCardContent>
                 Card Content
               </IonCardContent>
+              <ion-button href="/components/product">Purchase</ion-button>
             </IonCard>
 
           </IonCol>
@@ -138,6 +152,7 @@ function App() {
               <IonCardContent>
                 Card Content
               </IonCardContent>
+              <ion-button href="/components/product">Purchase</ion-button>
             </IonCard>
           </IonCol>
 
@@ -156,6 +171,7 @@ function App() {
               <IonCardContent>
                 Card Content
               </IonCardContent>
+              <ion-button href="/components/product">Purchase</ion-button>
             </IonCard>
 
           </IonCol>
@@ -171,6 +187,7 @@ function App() {
               <IonCardContent>
                 Card Content
               </IonCardContent>
+              <ion-button href="/components/product">Purchase</ion-button>
             </IonCard>
 
           </IonCol>
@@ -186,6 +203,7 @@ function App() {
               <IonCardContent>
                 Card Content
               </IonCardContent>
+              <ion-button href="/components/product">Purchase</ion-button>
             </IonCard>
 
           </IonCol>
@@ -201,6 +219,7 @@ function App() {
               <IonCardContent>
                 Card Content
               </IonCardContent>
+              <ion-button href="/components/product">Purchase</ion-button>
             </IonCard>
 
           </IonCol>
@@ -208,20 +227,60 @@ function App() {
         </IonRow>
       </IonGrid>
 
+      
+      {/* Contact */}
+
+      <h1>Contact Us Here</h1>
+
+      <h2>Moray Street</h2><br></br>
+      <h2>Elgin</h2>
+      <h2>IV30 1JJ</h2>
+
+      <h2>Opening hours</h2><br></br>
+
+      <h2>Monday</h2>
+      <h2>8:15am-4:30pm</h2>
+
+      <h2>Tuesday</h2>
+      <h2>8:15am-9:15pm</h2>
+
+      <h2>Wednesday</h2>
+      <h2>8:15am-9:15pm</h2>
+
+      <h2>Thursday</h2>
+      <h2>8:15am-4:30pm</h2>
+
+      <h2>Friday</h2>
+      <h2>8:15am-5:30pm</h2>
+
+      <h2>Saturday</h2>
+      <h2>Closed</h2>
+
+      <h2>Sunday</h2>
+      <h2>Closed</h2>
+
+      <IonImg src={image2} alt="Silhouette of mountains"></IonImg>
+
+    <ion-grid>
+      <ion-row>
+      <IonImg class ="img_logos" src={Facebook_logo} alt="Facebook logo"></IonImg>
+      <IonImg class ="img_logos" src={Instagram_logo} alt="Instagram logo"></IonImg>
+      <IonImg class ="img_logos" src={tripadvisor_logo} alt="TripAdvisor logo"></IonImg>
+      <IonImg class ="img_logos" src={youtube_logo} alt="Youtube logo"></IonImg>
+      </ion-row>
+    </ion-grid>
+
+      {/* Bike Trails */}
+
+      
+
+      {/* Photo Gallery */}
+
+      
+
+
       <footer>Bike King Borders</footer>
-    </div >
-
-    // Contact
-
-
-
-    // Photo Gallery
-
-
-
-    // Bike Trails
-
-
+      </div >
 
   );
 
@@ -244,8 +303,6 @@ function App() {
   //   console.log(token);
 
   //   return token;
-  // }
-
-}
+  }
 
 export default App;
