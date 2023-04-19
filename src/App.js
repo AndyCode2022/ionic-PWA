@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './images/logo.jpg';
 import image2 from './images/image2.jpg';
 import './App.css';
-import { product } from './product.js';
+// import { product } from './product.js';
 // import * as Notifications from 'expo-notifications';
 import '@ionic/react/css/core.css';
 import { defineCustomElements } from '@ionic/pwa-elements/loader';
