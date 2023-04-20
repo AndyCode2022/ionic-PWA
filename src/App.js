@@ -19,15 +19,10 @@ import { IonButtons, IonContent, IonHeader, IonMenu, IonMenuButton, IonPage, Ion
 function App() {
   setupIonicReact();
   defineCustomElements(window);
-
-// useEffect(()=>{
-//   const timeout = useTimeout(()=> setShowSplash(false),5000)
-//   return () => clearTimeout(timeout)
-//   }, [])
-
   return (
     <div className="App">
       <header className="App-header">
+        {/* Homepage */}
         <IonMenu contentId="main-content">
           <IonHeader>
             <IonToolbar>
@@ -56,23 +51,11 @@ function App() {
         </IonPage>
 
         <h1>Bike King Borders</h1>
-        {/* <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <ion-fab>
-          <ion-fab-button>
-            <ion-icon name="add"></ion-icon>
-          </ion-fab-button>
-        </ion-fab>
-        </a> */}
       </header>
 
       <IonImg src={image2} alt="bike image"></IonImg>
+
+      {/* Products page */}
 
       <IonCard>
         <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png"/>
