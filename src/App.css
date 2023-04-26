@@ -46,14 +46,14 @@ a {
 /* Products */
 
 /* iOS places the subtitle above the title */
-ion-card{
+/* ion-card{
   display: none;
-}
+} */
 
-ion-card-header.ios {
+/* ion-card-header.ios {
   display: flex;
   flex-flow: column-reverse;
-}
+} */
 
 /* Make a responsive grid for the purchasable items.
    Allow media queries to make the grid change at different sizes.

@@ -24,12 +24,12 @@ function App() {
   defineCustomElements(window);
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header"> */}
         {/* Homepage */}
         <IonMenu contentId="main-content">
           <IonHeader>
             <IonToolbar>
-              <IonTitle>Menu Content</IonTitle>              
+              <IonTitle>Menu Content</IonTitle>
             </IonToolbar>
           </IonHeader>
           <IonContent className="ion-padding">This is the menu content.</IonContent>
@@ -39,29 +39,32 @@ function App() {
           <a href="photoGallery.html">Photo Gallery</a>
           <a href="mapTrails.html">Map Trails</a>
         </IonMenu>
+        
         <IonPage id="main-content">
           <IonHeader>
             <IonToolbar>
               <IonButtons slot="start">
                 <IonMenuButton></IonMenuButton>
               </IonButtons>
-              <img src={logo} className="App-logo" alt="logo" />
+              {/* <img src={logo} className="App-logo" alt="logo" /> */}
             </IonToolbar>
           </IonHeader>
           <IonContent className="ion-padding">
-            Tap the button in the toolbar to open the menu.
-          </IonContent>
-        </IonPage>
 
-        <h1>Bike King Borders</h1>
-      </header>
+            <h1>Bike King Borders</h1>
+    
+
+    
+      {/* </header> */}
 
       <IonImg src={image2} alt="bike image"></IonImg>
 
       {/* Products page */}
+      <h1>Bike King Borders</h1>
+
 
       <IonCard>
-        <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png"/>
+        <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
         <IonCardHeader>
           <IonCardTitle>Carera Master</IonCardTitle>
           <IonCardSubtitle>Cost: £350</IonCardSubtitle>
@@ -72,7 +75,9 @@ function App() {
         </IonCardContent>
         <ion-button href="/components/product.js">Purchase</ion-button>
       </IonCard>
-
+  
+      
+      <h1>Bike King Borders</h1>
       <IonGrid>
 
         <IonRow>
@@ -83,7 +88,7 @@ function App() {
               <IonCardHeader>
                 <IonCardTitle>Kraken Vengence</IonCardTitle>
                 <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-                <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png"/>
+                <img alt="Silhouette of mountains" src="src/images/product1.jpg" />
               </IonCardHeader>
 
               <IonCardContent>
@@ -99,7 +104,7 @@ function App() {
               <IonCardHeader>
                 <IonCardTitle>TREK SLASHER</IonCardTitle>
                 <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-                <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+                <img alt="Silhouette of mountains" src="src/images/product2.jpg" />
               </IonCardHeader>
 
               <IonCardContent>
@@ -115,7 +120,7 @@ function App() {
               <IonCardHeader>
                 <IonCardTitle>Turbo Swift</IonCardTitle>
                 <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-                <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+                <img alt="Silhouette of mountains" src="src/images/product3.jpg" />
               </IonCardHeader>
 
               <IonCardContent>
@@ -132,7 +137,7 @@ function App() {
               <IonCardHeader>
                 <IonCardTitle>Voodini ark</IonCardTitle>
                 <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-                <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+                <img alt="Silhouette of mountains" src="src/images/product4.jpg" />
               </IonCardHeader>
 
               <IonCardContent>
@@ -151,7 +156,7 @@ function App() {
               <IonCardHeader>
                 <IonCardTitle>Dynasty raven</IonCardTitle>
                 <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-                <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+                <img alt="Silhouette of mountains" src="src/images/product5.jpg" />
               </IonCardHeader>
 
               <IonCardContent>
@@ -167,7 +172,7 @@ function App() {
               <IonCardHeader>
                 <IonCardTitle>Thor Light</IonCardTitle>
                 <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-                <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+                <img alt="Silhouette of mountains" src="src/images/product6.jpg" />
               </IonCardHeader>
 
               <IonCardContent>
@@ -177,7 +182,7 @@ function App() {
             </IonCard>
 
           </IonCol>
-          <IonCol>
+          {/* <IonCol>
 
             <IonCard color="light">
               <IonCardHeader>
@@ -192,8 +197,8 @@ function App() {
               <ion-button href="/components/product">Purchase</ion-button>
             </IonCard>
 
-          </IonCol>
-          <IonCol>
+          </IonCol> */}
+          {/* <IonCol>
 
             <IonCard color="medium">
               <IonCardHeader>
@@ -208,12 +213,12 @@ function App() {
               <ion-button href="/components/product">Purchase</ion-button>
             </IonCard>
 
-          </IonCol>
+          </IonCol> */}
 
         </IonRow>
       </IonGrid>
 
-      
+
       {/* Contact */}
 
       <h1>Contact Us Here</h1>
@@ -247,22 +252,23 @@ function App() {
 
       <IonImg src={image2} alt="Silhouette of mountains"></IonImg>
 
-    <ion-grid>
-      <ion-row>
-      <IonImg class ="img_logos" src={Facebook_logo} alt="Facebook logo"></IonImg>
-      <IonImg class ="img_logos" src={Instagram_logo} alt="Instagram logo"></IonImg>
-      <IonImg class ="img_logos" src={tripadvisor_logo} alt="TripAdvisor logo"></IonImg>
-      <IonImg class ="img_logos" src={youtube_logo} alt="Youtube logo"></IonImg>
-      </ion-row>
-    </ion-grid>
+      <ion-grid>
+        <ion-row>
+          <IonImg class="img_logos" src={Facebook_logo} alt="Facebook logo"></IonImg>
+          <IonImg class="img_logos" src={Instagram_logo} alt="Instagram logo"></IonImg>
+          <IonImg class="img_logos" src={tripadvisor_logo} alt="TripAdvisor logo"></IonImg>
+          <IonImg class="img_logos" src={youtube_logo} alt="Youtube logo"></IonImg>
+        </ion-row>
+      </ion-grid>
 
       {/* Bike Trails */}
 
+      <IonImg src={bikeTrails1} alt="bikeTrail"></IonImg>
+
       <ion-card>
         <ion-card-header>
-        <IonImg src={bikeTrails1} alt="bikeTrail"></IonImg>
           <ion-card-title>Card Title</ion-card-title>
-            <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+          <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
         </ion-card-header>
 
         <ion-card-content>
@@ -270,26 +276,26 @@ function App() {
         </ion-card-content>
       </ion-card>
 
-<ion-card>
+      <ion-card>
         <ion-card-header>
           <ion-card-title>Bike King Borders Location</ion-card-title>
-            <ion-card-subtitle>This is where to find us!</ion-card-subtitle>
+          <ion-card-subtitle>This is where to find us!</ion-card-subtitle>
         </ion-card-header>
 
         <ion-card-content>
-        We are located in the borders region of Scotland.
+          We are located in the borders region of Scotland.
         </ion-card-content>
       </ion-card>
 
       <IonImg src={bikeTrails2} alt="bikeTrail"></IonImg>
 
 
-      
+
 
       <ion-card>
         <ion-card-header>
           <ion-card-title>Card Title</ion-card-title>
-            <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+          <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
         </ion-card-header>
 
         <ion-card-content>
@@ -298,15 +304,17 @@ function App() {
       </ion-card>
 
       {/* Photo Gallery */}
+ 
 
-      {/* map/location
 
-      text */}
+      {/* map/location */}
 
-    
 
+
+</IonContent>
+        </IonPage>
       <footer>Bike King Borders</footer>
-      </div >
+    </div >
 
   );
 
@@ -329,6 +337,6 @@ function App() {
   //   console.log(token);
 
   //   return token;
-  }
+}
 
 export default App;
