@@ -1,11 +1,14 @@
 import React from 'react';
 import logo from './images/logo.jpg';
 import image2 from './images/image2.jpg';
+// social media logos
 import Facebook_logo from './images/Facebook_logo.png';
 import Instagram_logo from './images/Instagram_logo.png';
 import tripadvisor_logo from './images/tripadvisor_logo.png';
 import youtube_logo from './images/youtube_logo.png';
-
+// bike trail images
+import bikeTrails1 from './images/bikeTrails1.jpg';
+import bikeTrails2 from './images/bikeTrails2.jpg';
 import './App.css';
 // import { product } from './product.js';
 // import * as Notifications from 'expo-notifications';
@@ -255,11 +258,38 @@ function App() {
 
       {/* Bike Trails */}
 
-      
+
+      <IonImg src={bikeTrails1} alt="bikeTrail"></IonImg>
+
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>Card Title</ion-card-title>
+            <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+        </ion-card-header>
+
+        <ion-card-content>
+          Here's a small text description for the card content. Nothing more, nothing less.
+        </ion-card-content>
+      </ion-card>
+
+      <IonImg src={bikeTrails2} alt="bikeTrail"></IonImg>
+
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>Card Title</ion-card-title>
+            <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+        </ion-card-header>
+
+        <ion-card-content>
+          Here's a small text description for the card content. Nothing more, nothing less.
+        </ion-card-content>
+      </ion-card>
 
       {/* Photo Gallery */}
 
-      
+      map/location
+
+      text
 
 
       <footer>Bike King Borders</footer>
