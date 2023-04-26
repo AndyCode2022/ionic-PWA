@@ -258,11 +258,9 @@ function App() {
 
       {/* Bike Trails */}
 
-
-      <IonImg src={bikeTrails1} alt="bikeTrail"></IonImg>
-
       <ion-card>
         <ion-card-header>
+        <IonImg src={bikeTrails1} alt="bikeTrail"></IonImg>
           <ion-card-title>Card Title</ion-card-title>
             <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
         </ion-card-header>
@@ -272,7 +270,21 @@ function App() {
         </ion-card-content>
       </ion-card>
 
+<ion-card>
+        <ion-card-header>
+          <ion-card-title>Bike King Borders Location</ion-card-title>
+            <ion-card-subtitle>This is where to find us!</ion-card-subtitle>
+        </ion-card-header>
+
+        <ion-card-content>
+        We are located in the borders region of Scotland.
+        </ion-card-content>
+      </ion-card>
+
       <IonImg src={bikeTrails2} alt="bikeTrail"></IonImg>
+
+
+      
 
       <ion-card>
         <ion-card-header>
@@ -287,10 +299,11 @@ function App() {
 
       {/* Photo Gallery */}
 
-      map/location
+      {/* map/location
 
-      text
+      text */}
 
+    
 
       <footer>Bike King Borders</footer>
       </div >
