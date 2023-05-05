@@ -22,6 +22,9 @@ import photoGallery from './pages/photoGallery';
 
 import { IonReactRouter } from '@ionic/react-router';
 
+import { withRouter } from 'react-router-dom';
+
+
 import { Route, Redirect } from 'react-router';
 
 import { playCircle, radio, contact, addSharp } from 'ionicons/icons';

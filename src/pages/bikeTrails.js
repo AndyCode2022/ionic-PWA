@@ -1,5 +1,7 @@
 import React from 'react';
 import { IonImg, IonCardTitle, IonCardHeader, IonCardSubtitle, IonCardContent, IonCard } from '@ionic/react';
+import bikeTrails1 from '../images/bikeTrails1.jpg';
+import bikeTrails2 from '../images/bikeTrails2.jpg';
 
 const bikeTrails = () => (
   <>
