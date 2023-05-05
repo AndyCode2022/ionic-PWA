@@ -6,7 +6,6 @@ import image2 from './images/image2.jpg';
 import bikeTrails1 from './images/bikeTrails1.jpg';
 import bikeTrails2 from './images/bikeTrails2.jpg';
 import './App.css';
-// import { product } from './product.js';
 // import * as Notifications from 'expo-notifications';
 import '@ionic/react/css/core.css';
 import { defineCustomElements } from '@ionic/pwa-elements/loader';
@@ -25,7 +24,7 @@ import { IonReactRouter } from '@ionic/react-router';
 
 import { Route, Redirect } from 'react-router';
 
-import { playCircle, radio, contact } from 'ionicons/icons';
+import { playCircle, radio, contact, addSharp } from 'ionicons/icons';
 
 
 function App() {
@@ -45,7 +44,8 @@ function App() {
           <Route path="/home" render={() => <HomePage />} exact={true} />
           <Route path="/products" render={() => <Products />} exact={true} />
           <Route path="/contact" render={() => <Contact />} exact={true} />
-          {/* <Route path="/bikeTrails" render={() => <SearchPage />} exact={true} /> */}
+          <Route path="/bikeTrails" render={() => <bikeTrails />} exact={true} />
+          <Route path="/photoGallery" render={() => <photoGallery />} exact={true} />
         </IonRouterOutlet>
 
         <IonTabBar slot="bottom">
@@ -56,12 +56,12 @@ function App() {
 
           <IonTabButton tab="products" href="/products">
             <IonIcon icon={radio} />
-            <IonLabel>products</IonLabel>
+            <IonLabel>Products</IonLabel>
           </IonTabButton>
 
           <IonTabButton tab="contact" href="/contact">
-            <IonIcon icon={contact} />
-            <IonLabel>contact</IonLabel>
+            <IonIcon icon={addSharp} />
+            <IonLabel>Contact</IonLabel>
           </IonTabButton>
 
           <IonTabButton tab="bikeTrails" href="/bikeTrails">
@@ -71,7 +71,7 @@ function App() {
 
           <IonTabButton tab="photoGallery" href="/photoGallery">
             <IonIcon icon={photoGallery} />
-            <IonLabel>Search</IonLabel>
+            <IonLabel>photoGallery</IonLabel>
           </IonTabButton>
 
 

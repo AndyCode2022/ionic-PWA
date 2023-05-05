@@ -1,6 +1,6 @@
 import React from 'react';
 import { IonContent, IonHeader, IonTitle, IonToolbar, IonButtons, IonMenu, IonMenuButton, IonPage, IonImg } from '@ionic/react';
-import image2 from '../images/image2.jpg';
+// import image2 from '../images/image2.jpg';
 import image1 from '../images/bikeTrails1.jpg';
 
 

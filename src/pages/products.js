@@ -1,170 +1,167 @@
 import React from 'react';
-import { IonCard, IonCardHeader, IonCardTitle, IonCardTitle, IonCardSubtitle, IonCardContent, IonGrid, IonRow, IonCol, IonCard, IonCardHeader, IonCardTitle, IonCardSubtitle, IonCardContent, IonCol } from '@ionic/react';
-import image2 from '../images/image2.jpg';
+import { IonCard, IonCardHeader, IonCardTitle, IonCardSubtitle, IonCardContent, IonGrid, IonRow, IonCol } from '@ionic/react';
 import image1 from '../images/bikeTrails1.jpg';
+import image2 from '../images/image2.jpg';
 
 const product = () => (
 
     <>
 
-// {/* Products page */}
-// <h1>Bike King Borders</h1>
+Products page
+<h1>Bike King Borders</h1>
 
 
-// <IonCard>
-//   <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
-//   <IonCardHeader>
-//     <IonCardTitle>Carera Master</IonCardTitle>
-//     <IonCardSubtitle>Cost: £350</IonCardSubtitle>
-//   </IonCardHeader>
+<IonCard>
+<img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+<IonCardHeader>
+<IonCardTitle>Carera Master</IonCardTitle>
+<IonCardSubtitle>Cost: £350</IonCardSubtitle>
+</IonCardHeader>
 
-//   <IonCardContent>
-//     Get the all new Kraken master bike!
-//   </IonCardContent>
-//   <ion-button href="/components/product.js">Purchase</ion-button>
-// </IonCard>
+<IonCardContent>
+     Get the all new Kraken master bike!
+   </IonCardContent>
+   <ion-button href="/components/product.js">Purchase</ion-button>
+ </IonCard>
 
 
-// <h1>Bike King Borders</h1>
-// <IonGrid>
+ <h1>Bike King Borders</h1>
+ <IonGrid>
+   <IonRow>
 
-//   <IonRow>
+     <IonCol>
 
-//     <IonCol>
+       <IonCard color="primary">
+         <IonCardHeader>
+           <IonCardTitle>Kraken Vengence</IonCardTitle>
+           <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+          <img alt="Silhouette of mountains" src="src/images/product1.jpg" />
+         </IonCardHeader>
 
-//       <IonCard color="primary">
-//         <IonCardHeader>
-//           <IonCardTitle>Kraken Vengence</IonCardTitle>
-//           <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-//           <img alt="Silhouette of mountains" src="src/images/product1.jpg" />
-//         </IonCardHeader>
+        <IonCardContent>
+           Card Content
+         </IonCardContent>
+         <ion-button href="/components/product">Purchase</ion-button>
+       </IonCard>
 
-//         <IonCardContent>
-//           Card Content
-//         </IonCardContent>
-//         <ion-button href="/components/product">Purchase</ion-button>
-//       </IonCard>
+     </IonCol>
+     <IonCol>
+       <IonCard color="secondary">
+        <IonCardHeader>
+           <IonCardTitle>TREK SLASHER</IonCardTitle>
+          <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+           <img alt="Silhouette of mountains" src="src/images/product2.jpg" />
+         </IonCardHeader>
 
-//     </IonCol>
-//     <IonCol>
+         <IonCardContent>
+           Card Content
+         </IonCardContent>
+         <ion-button href="/components/product">Purchase</ion-button>       </IonCard>
 
-//       <IonCard color="secondary">
-//         <IonCardHeader>
-//           <IonCardTitle>TREK SLASHER</IonCardTitle>
-//           <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-//           <img alt="Silhouette of mountains" src="src/images/product2.jpg" />
-//         </IonCardHeader>
+     </IonCol>
+     <IonCol>
 
-//         <IonCardContent>
-//           Card Content
-//         </IonCardContent>
-//         <ion-button href="/components/product">Purchase</ion-button>
-//       </IonCard>
+       <IonCard color="tertiary">
+         <IonCardHeader>
+           <IonCardTitle>Turbo Swift</IonCardTitle>
+           <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+           <img alt="Silhouette of mountains" src="src/images/product3.jpg" />
+         </IonCardHeader>
 
-//     </IonCol>
-//     <IonCol>
+         <IonCardContent>
+           Card Content
+         </IonCardContent>
+         <ion-button href="/components/product">Purchase</ion-button>
+       </IonCard>
 
-//       <IonCard color="tertiary">
-//         <IonCardHeader>
-//           <IonCardTitle>Turbo Swift</IonCardTitle>
-//           <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-//           <img alt="Silhouette of mountains" src="src/images/product3.jpg" />
-//         </IonCardHeader>
+     </IonCol>
 
-//         <IonCardContent>
-//           Card Content
-//         </IonCardContent>
-//         <ion-button href="/components/product">Purchase</ion-button>
-//       </IonCard>
+     <IonCol>
 
-//     </IonCol>
+       <IonCard color="success">
+         <IonCardHeader>
+           <IonCardTitle>Voodini ark</IonCardTitle>
+           <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+           <img alt="Silhouette of mountains" src="src/images/product4.jpg" />
+         </IonCardHeader>
 
-//     <IonCol>
+         <IonCardContent>
+           Card Content
+         </IonCardContent>
+         <ion-button href="/components/product">Purchase</ion-button>
+       </IonCard>
+     </IonCol>
 
-//       <IonCard color="success">
-//         <IonCardHeader>
-//           <IonCardTitle>Voodini ark</IonCardTitle>
-//           <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-//           <img alt="Silhouette of mountains" src="src/images/product4.jpg" />
-//         </IonCardHeader>
+   </IonRow>
+   <IonRow>
 
-//         <IonCardContent>
-//           Card Content
-//         </IonCardContent>
-//         <ion-button href="/components/product">Purchase</ion-button>
-//       </IonCard>
-//     </IonCol>
+     <IonCol>
 
-//   </IonRow>
-//   <IonRow>
+       <IonCard color="warning">
+         <IonCardHeader>
+           <IonCardTitle>Dynasty raven</IonCardTitle>
+           <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+          <img alt="Silhouette of mountains" src="src/images/product5.jpg" />
+        </IonCardHeader>
 
-//     <IonCol>
+         <IonCardContent>
+           Card Content
+         </IonCardContent>
+         <ion-button href="/components/product">Purchase</ion-button>
+       </IonCard>
 
-//       <IonCard color="warning">
-//         <IonCardHeader>
-//           <IonCardTitle>Dynasty raven</IonCardTitle>
-//           <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-//           <img alt="Silhouette of mountains" src="src/images/product5.jpg" />
-//         </IonCardHeader>
+     </IonCol>
+     <IonCol>
 
-//         <IonCardContent>
-//           Card Content
-//         </IonCardContent>
-//         <ion-button href="/components/product">Purchase</ion-button>
-//       </IonCard>
+      <IonCard color="danger">
+        <IonCardHeader>
+          <IonCardTitle>Thor Light</IonCardTitle>
+           <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+           <img alt="Silhouette of mountains" src="src/images/product6.jpg" />
+         </IonCardHeader>
 
-//     </IonCol>
-//     <IonCol>
+         <IonCardContent>
+           Card Content
+         </IonCardContent>
+         <ion-button href="/components/product">Purchase</ion-button>
+       </IonCard>
 
-//       <IonCard color="danger">
-//         <IonCardHeader>
-//           <IonCardTitle>Thor Light</IonCardTitle>
-//           <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-//           <img alt="Silhouette of mountains" src="src/images/product6.jpg" />
-//         </IonCardHeader>
+     </IonCol>
+     {/* <IonCol>
 
-//         <IonCardContent>
-//           Card Content
-//         </IonCardContent>
-//         <ion-button href="/components/product">Purchase</ion-button>
-//       </IonCard>
+       <IonCard color="light">
+         <IonCardHeader>
+           <IonCardTitle>Hades</IonCardTitle>
+           <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+           <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+         </IonCardHeader>
 
-//     </IonCol>
-//     {/* <IonCol>
+         <IonCardContent>
+           Card Content
+         </IonCardContent>
+         <ion-button href="/components/product">Purchase</ion-button>
+       </IonCard>
 
-//       <IonCard color="light">
-//         <IonCardHeader>
-//           <IonCardTitle>Hades</IonCardTitle>
-//           <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-//           <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
-//         </IonCardHeader>
+     </IonCol> */}
+     {/* <IonCol>
 
-//         <IonCardContent>
-//           Card Content
-//         </IonCardContent>
-//         <ion-button href="/components/product">Purchase</ion-button>
-//       </IonCard>
+       <IonCard color="medium">
+         <IonCardHeader>
+           <IonCardTitle>Joker Supreme</IonCardTitle>
+           <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+           <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+        </IonCardHeader>
 
-//     </IonCol> */}
-//     {/* <IonCol>
+         <IonCardContent>
+           Card Content
+         </IonCardContent>
+         <ion-button href="/components/product">Purchase</ion-button>
+       </IonCard>
 
-//       <IonCard color="medium">
-//         <IonCardHeader>
-//           <IonCardTitle>Joker Supreme</IonCardTitle>
-//           <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-//           <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
-//         </IonCardHeader>
+     </IonCol> */}
 
-//         <IonCardContent>
-//           Card Content
-//         </IonCardContent>
-//         <ion-button href="/components/product">Purchase</ion-button>
-//       </IonCard>
-
-//     </IonCol> */}
-
-//   </IonRow>
-// </IonGrid>
+   </IonRow>
+ </IonGrid>
 
 </>
 

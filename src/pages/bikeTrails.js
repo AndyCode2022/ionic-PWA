@@ -1,29 +1,38 @@
+import React from 'react';
+import { IonImg, IonCardTitle, IonCardHeader, IonCardSubtitle, IonCardContent, IonCard } from '@ionic/react';
+
+const bikeTrails = () => (
+  <>
 {/* Bike Trails */}
 
-{/* <IonImg src={bikeTrails1} alt="bikeTrail"></IonImg>
+<IonImg src={bikeTrails1} alt="bikeTrail"></IonImg>
 
-<ion-card>
-  <ion-card-header>
-    <ion-card-title>Card Title</ion-card-title>
-    <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-  </ion-card-header>
+<IonCard>
+  <IonCardHeader>
+    <IonCardTitle>Card Title</IonCardTitle>
+    <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+  </IonCardHeader>
 
-  <ion-card-content>
+  <IonCardContent>
     Here's a small text description for the card content. Nothing more, nothing less.
-  </ion-card-content>
-</ion-card>
+  </IonCardContent>
+</IonCard>
 
 
 
 <IonImg src={bikeTrails2} alt="bikeTrail"></IonImg>
 
-<ion-card>
-  <ion-card-header>
-    <ion-card-title>Card Title</ion-card-title>
-    <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-  </ion-card-header>
+<IonCard>
+  <IonCardHeader>
+    <IonCardTitle>Card Title</IonCardTitle>
+    <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+  </IonCardHeader>
 
-  <ion-card-content>
+  <IonCardContent>
     Here's a small text description for the card content. Nothing more, nothing less.
-  </ion-card-content>
-</ion-card> */}
+  </IonCardContent>
+</IonCard>
+</>
+);
+
+export default bikeTrails;

@@ -1,18 +1,20 @@
+import React from 'react';
+import { IonCard, IonCardHeader, IonCardContent, IonCardSubtitle, IonCardTitle } from '@ionic/react';
 
 const photoGallery = () => (
 
 <>
 
-<ion-card>
-<ion-card-header>
-  <ion-card-title>Bike King Borders Location</ion-card-title>
-  <ion-card-subtitle>This is where to find us!</ion-card-subtitle>
-</ion-card-header>
+<IonCard>
+<IonCardHeader>
+  <IonCardTitle>Bike King Borders Location</IonCardTitle>
+  <IonCardSubtitle>This is where to find us!</IonCardSubtitle>
+</IonCardHeader>
 
-<ion-card-content>
+<IonCardContent>
   We are located in the borders region of Scotland.
-</ion-card-content>
-</ion-card>
+</IonCardContent>
+</IonCard>
 
 </>
 

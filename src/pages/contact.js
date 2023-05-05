@@ -1,5 +1,5 @@
 import React from 'react';
-import { IonContent, IonHeader, IonTitle, IonToolbar, IonImg } from '@ionic/react';
+import { IonImg } from '@ionic/react';
 // social media logos
 import Facebook_logo from '../images/Facebook_logo.png';
 import Instagram_logo from '../images/Instagram_logo.png';
