@@ -3,13 +3,12 @@ import logo from "./images/logo.jpg";
 import image2 from "./images/image2.jpg";
 
 // bike trail images
-import bikeTrails1 from "./images/bikeTrails1.jpg";
-import bikeTrails2 from "./images/bikeTrails2.jpg";
+
 import "./App.css";
 // import * as Notifications from 'expo-notifications';
 import "@ionic/react/css/core.css";
 import { defineCustomElements } from "@ionic/pwa-elements/loader";
-import { setupIonicReact, IonImg } from "@ionic/react";
+import { setupIonicReact, IonImg, IonCardSubtitle } from "@ionic/react";
 import {
   IonTabs,
   IonTabBar,
@@ -17,13 +16,14 @@ import {
   IonIcon,
   IonLabel,
   IonRouterOutlet,
+  IonButton,
 } from "@ionic/react";
+
 // import { useState, useEffect, AsyncStorage } from "react";
 import HomePage from "./pages/HomePage";
 import Products from "./pages/products";
 import Contact from "./pages/contact";
-// import bikeTrails from "./pages/bikeTrails";
-// import photoGallery from "./pages/photoGallery";
+
 
 import { IonReactRouter } from "@ionic/react-router";
 
@@ -89,15 +89,26 @@ function App() {
               <IonIcon icon={radio} />
               <IonLabel>photoGallery</IonLabel>
             </IonTabButton>
+
           </IonTabBar>
         </IonTabs>
       </IonReactRouter>
 
-      <HomePage></HomePage>
+      {/* <HomePage></HomePage>
       <Products></Products>
       <Contact></Contact>
       <bikeTrails></bikeTrails>
-      <photoGallery></photoGallery>
+      <photoGallery></photoGallery> */}
+
+     
+
+      {/* <IonCard>
+        <IonCardHeader>
+          <IonCardTitle></IonCardTitle>
+          <IonCardSubtitle></IonCardSubtitle>
+        </IonCardHeader>
+      </IonCard> */}
+
     </>
   );
 }

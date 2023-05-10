@@ -1,7 +1,28 @@
 import React from 'react';
-import { IonCard, IonCardHeader, IonCardTitle, IonCardSubtitle, IonCardContent, IonGrid, IonRow, IonCol, IonPage, IonContent } from '@ionic/react';
+import { IonCard, IonImg, IonCardHeader, IonCardTitle, IonCardSubtitle, IonCardContent, IonGrid, IonRow, IonCol, IonPage, IonContent } from '@ionic/react';
 import image1 from '../images/bikeTrails1.jpg';
 import image2 from '../images/image2.jpg';
+
+import mainProduct from '../images/mainProduct.jpg';
+
+import product1 from '../images/product1.jpg';
+import product2 from '../images/product2.jpg';
+import product3 from '../images/product3.jpg';
+import product4 from '../images/product4.jpg';
+import product5 from '../images/product5.jpg';
+import product6 from '../images/product6.jpg';
+
+
+import Card from '../components/card';
+// Components
+
+// import productOne from '../components/productOne.js';
+// import productTwo from '../components/productTwo.js';
+// import productThree from '../components/productThree.js';
+// import productFour from '../components/productFour.js';
+// import productFive from '../components/productFive.js';
+// import productSix from '../components/productSix.js';
+
 
 const product = () => (
 
@@ -10,11 +31,11 @@ const product = () => (
             <IonContent>
 
                 {/* Products page */}
-                <h1>Bike King Borders</h1>
+               <h1>Bike King Borders</h1>
 
-
+                {/* Change the images to ion img */}
                 <IonCard>
-                    <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+                    <IonImg src={mainProduct} alt="Black Bike"></IonImg>
                     <IonCardHeader>
                         <IonCardTitle>Carera Master</IonCardTitle>
                         <IonCardSubtitle>Cost: £350</IonCardSubtitle>
@@ -31,43 +52,35 @@ const product = () => (
                 <IonGrid>
                     <IonRow>
 
-                        <IonCol>
 
-                            <IonCard color="primary">
-                                <IonCardHeader>
-                                    <IonCardTitle>Kraken Vengence</IonCardTitle>
-                                    <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-                                    <img alt="Silhouette of mountains" src="src/images/product1.jpg" />
-                                </IonCardHeader>
+                    <Card></Card>
+                        {/* <ProductOne></ProductOne> */}
+                        {/* <ProductTwo></ProductTwo> */}
+                        {/* <ProductThree></ProductThree> */}
 
-                                <IonCardContent>
-                                    Card Content
-                                </IonCardContent>
-                                <ion-button href="/components/product">Purchase</ion-button>
-                            </IonCard>
+                  
+                  {/*
 
-                        </IonCol>
                         <IonCol>
                             <IonCard color="secondary">
                                 <IonCardHeader>
                                     <IonCardTitle>TREK SLASHER</IonCardTitle>
                                     <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-                                    <img alt="Silhouette of mountains" src="src/images/product2.jpg" />
+                                    <IonImg src={product2} alt="green and white bike"></IonImg>
                                 </IonCardHeader>
 
                                 <IonCardContent>
                                     Card Content
                                 </IonCardContent>
                                 <ion-button href="/components/product">Purchase</ion-button>       </IonCard>
-
                         </IonCol>
-                        <IonCol>
 
+                        <IonCol>
                             <IonCard color="tertiary">
                                 <IonCardHeader>
                                     <IonCardTitle>Turbo Swift</IonCardTitle>
                                     <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-                                    <img alt="Silhouette of mountains" src="src/images/product3.jpg" />
+                                    <IonImg src={product3} alt="black bike"></IonImg>
                                 </IonCardHeader>
 
                                 <IonCardContent>
@@ -75,16 +88,14 @@ const product = () => (
                                 </IonCardContent>
                                 <ion-button href="/components/product">Purchase</ion-button>
                             </IonCard>
-
                         </IonCol>
 
                         <IonCol>
-
                             <IonCard color="success">
                                 <IonCardHeader>
                                     <IonCardTitle>Voodini ark</IonCardTitle>
                                     <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-                                    <img alt="Silhouette of mountains" src="src/images/product4.jpg" />
+                                    <IonImg src={product4} alt="green and white bike"></IonImg>
                                 </IonCardHeader>
 
                                 <IonCardContent>
@@ -93,17 +104,16 @@ const product = () => (
                                 <ion-button href="/components/product">Purchase</ion-button>
                             </IonCard>
                         </IonCol>
+                 </IonRow>
 
-                    </IonRow>
                     <IonRow>
 
                         <IonCol>
-
                             <IonCard color="warning">
                                 <IonCardHeader>
                                     <IonCardTitle>Dynasty raven</IonCardTitle>
                                     <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-                                    <img alt="Silhouette of mountains" src="src/images/product5.jpg" />
+                                    <IonImg src={product5} alt="black bike"></IonImg>
                                 </IonCardHeader>
 
                                 <IonCardContent>
@@ -111,15 +121,14 @@ const product = () => (
                                 </IonCardContent>
                                 <ion-button href="/components/product">Purchase</ion-button>
                             </IonCard>
-
                         </IonCol>
-                        <IonCol>
 
+                        <IonCol>
                             <IonCard color="danger">
                                 <IonCardHeader>
                                     <IonCardTitle>Thor Light</IonCardTitle>
                                     <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-                                    <img alt="Silhouette of mountains" src="src/images/product6.jpg" />
+                                    <IonImg src={product6} alt="white bike"></IonImg>
                                 </IonCardHeader>
 
                                 <IonCardContent>
@@ -127,8 +136,8 @@ const product = () => (
                                 </IonCardContent>
                                 <ion-button href="/components/product">Purchase</ion-button>
                             </IonCard>
-
-                        </IonCol>
+                        </IonCol> */}
+                        
                         {/* <IonCol>
 
        <IonCard color="light">
