@@ -6,6 +6,8 @@ import image1 from '../images/bikeTrails1.jpg';
 
 const HomePage = () => (
   <>
+  <IonPage>
+  <IonContent>
   <div className="App">
   <header className="App-header">
 
@@ -41,9 +43,10 @@ const HomePage = () => (
         </IonContent>
       </IonPage>   
          <IonImg src={image1} alt="bike image"></IonImg>
-
 </header>
 </div>
+</IonContent>
+</IonPage>
 </>
   );
 

@@ -4,6 +4,8 @@ import { IonCard, IonCardHeader, IonCardContent, IonCardSubtitle, IonCardTitle }
 const photoGallery = () => (
 
 <>
+<IonPage>
+  <IonContent>
 
 <IonCard>
 <IonCardHeader>
@@ -16,6 +18,8 @@ const photoGallery = () => (
 </IonCardContent>
 </IonCard>
 
+</IonContent>
+</IonPage>
 </>
 
 );

@@ -5,6 +5,10 @@ import bikeTrails2 from '../images/bikeTrails2.jpg';
 
 const bikeTrails = () => (
   <>
+
+<IonPage>
+  <IonContent>
+
 {/* Bike Trails */}
 
 <IonImg src={bikeTrails1} alt="bikeTrail"></IonImg>
@@ -34,6 +38,9 @@ const bikeTrails = () => (
     Here's a small text description for the card content. Nothing more, nothing less.
   </IonCardContent>
 </IonCard>
+
+</IonContent>
+</IonPage>
 </>
 );
 
