@@ -23,7 +23,8 @@ import {
 import HomePage from "./pages/HomePage";
 import Products from "./pages/products";
 import Contact from "./pages/contact";
-
+// import photoGallery from "./pages/photoGallery";
+// import bikeTrails from "./pages/bikeTrails";
 
 import { IonReactRouter } from "@ionic/react-router";
 
@@ -43,7 +44,7 @@ function App() {
       <IonReactRouter>
         <IonTabs>
           <IonRouterOutlet>
-            <Redirect exact path="/" to="/home" />
+            {/* <Redirect exact path="/" to="/home" /> */}
             {/*
           Use the render method to reduce the number of renders your component will have due to a route change.
 
@@ -89,7 +90,6 @@ function App() {
               <IonIcon icon={radio} />
               <IonLabel>photoGallery</IonLabel>
             </IonTabButton>
-
           </IonTabBar>
         </IonTabs>
       </IonReactRouter>
@@ -100,15 +100,12 @@ function App() {
       <bikeTrails></bikeTrails>
       <photoGallery></photoGallery> */}
 
-     
-
       {/* <IonCard>
         <IonCardHeader>
           <IonCardTitle></IonCardTitle>
           <IonCardSubtitle></IonCardSubtitle>
         </IonCardHeader>
       </IonCard> */}
-
     </>
   );
 }

@@ -8,8 +8,6 @@ import youtube_logo from '../images/youtube_logo.png';
 import image2 from '../images/image2.jpg';
 import { IonGrid, IonRow } from '@ionic/react';
 
-{/* Contact */ }
-
 const contact = () => (
 
 

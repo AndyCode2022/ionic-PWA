@@ -1,16 +1,16 @@
 import React from 'react';
-import { IonCard, IonImg, IonCardHeader, IonCardTitle, IonCardSubtitle, IonCardContent, IonGrid, IonRow, IonCol, IonPage, IonContent } from '@ionic/react';
-import image1 from '../images/bikeTrails1.jpg';
-import image2 from '../images/image2.jpg';
+import { IonCard, IonImg, IonCardHeader, IonCardTitle, IonCardSubtitle, IonCardContent, IonGrid, IonRow, IonPage, IonContent } from '@ionic/react';
+// import image1 from '../images/bikeTrails1.jpg';
+// import image2 from '../images/image2.jpg';
 
 import mainProduct from '../images/mainProduct.jpg';
 
-import product1 from '../images/product1.jpg';
-import product2 from '../images/product2.jpg';
-import product3 from '../images/product3.jpg';
-import product4 from '../images/product4.jpg';
-import product5 from '../images/product5.jpg';
-import product6 from '../images/product6.jpg';
+// import product1 from '../images/product1.jpg';
+// import product2 from '../images/product2.jpg';
+// import product3 from '../images/product3.jpg';
+// import product4 from '../images/product4.jpg';
+// import product5 from '../images/product5.jpg';
+// import product6 from '../images/product6.jpg';
 
 
 import Card from '../components/card';
