@@ -10,7 +10,6 @@ import { IonGrid, IonRow } from '@ionic/react';
 
 const contact = () => (
 
-
   <IonPage>
     <IonContent>
       <IonCard>

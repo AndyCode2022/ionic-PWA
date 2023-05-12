@@ -23,12 +23,12 @@ import {
 import HomePage from "./pages/HomePage";
 import Products from "./pages/products";
 import Contact from "./pages/contact";
-// import photoGallery from "./pages/photoGallery";
-// import bikeTrails from "./pages/bikeTrails";
+import photoGallery from "./pages/photoGallery";
+import bikeTrails from "./pages/bikeTrails";
 
 import { IonReactRouter } from "@ionic/react-router";
 
-import { withRouter } from "react-router-dom";
+// import { withRouter } from "react-router-dom";
 
 // ion router might not work on college pc. Might need to install again.
 
@@ -83,9 +83,11 @@ function App() {
               <IonLabel>Photo Gallery</IonLabel>
             </IonTabButton>
           </IonTabBar>
+
         </IonTabs>
+
       </IonReactRouter>
- 
+
       {/* <HomePage></HomePage>
       <Products></Products>
       <Contact></Contact>
@@ -106,28 +108,3 @@ export default App;
 
 // References
 // https://ionicframework.com/docs/components
-
-// {/* End of content and displayed footer */}
-
-//   <footer>Bike King Borders</footer>
-// </div >
-
-// // Push Notifications
-// async function registerForPushNotificationsAsync() {
-//   let token;
-
-//   const { status: existingStatus } = await Notifications.getPermissionsAsync();
-//   let finalStatus = existingStatus;
-
-//   if (existingStatus !== 'granted') {
-//     const { status } = await Notifications.requestPermissionsAsync();
-//     finalStatus = status;
-//   }
-//   if (finalStatus !== 'granted') {
-//     alert('Failed to get push token for push notification!');
-//     return;
-//   }
-//   token = (await Notifications.getExpoPushTokenAsync()).data;
-//   console.log(token);
-
-//   return token;

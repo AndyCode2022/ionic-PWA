@@ -9,8 +9,6 @@ const bikeTrails = () => (
     <IonPage>
       <IonContent>
 
-        {/* Bike Trails */}
-
         <IonImg src={bikeTrails1} alt="bikeTrail"></IonImg>
 
         <IonCard>
