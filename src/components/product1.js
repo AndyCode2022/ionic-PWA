@@ -12,8 +12,9 @@ const productOne = () => (
                     <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
                     <IonImg src={product1} alt="black bike"></IonImg>
                 </IonCardHeader>
-
+                    
                 <IonCardContent>
+                    <h2>test</h2>
                     Card Content
                 </IonCardContent>
                 <ion-button href="/components/product">Purchase</ion-button>
