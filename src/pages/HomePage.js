@@ -1,15 +1,14 @@
 import React from 'react';
 import { IonContent, IonHeader, IonTitle, IonToolbar, IonButtons, IonMenu, IonMenuButton, IonPage, IonImg, IonButton } from '@ionic/react';
 // import image2 from '../images/image2.jpg';
-// import image1 from '../images/bikeTrails1.jpg';
+import image1 from '../images/bikeTrails1.jpg';
+import logo from '../images/logo.jpg';
 // import bikeTrails from "./pages/bikeTrails";
 // import photoGallery from "./pages/photoGallery";
-import bikeTrails1 from "../images/bikeTrails1.jpg";
+// import bikeTrails1 from "../images/bikeTrails1.jpg";
 // import bikeTrails2 from "../images/bikeTrails2.jpg";
 
 import Card from '../components/card';
-
-
 
 function Subscribe() {
   console.log("This is a test");
@@ -51,8 +50,6 @@ const HomePage = () => (
            <card></card>
             <IonMenu contentId="main-content">
           
-
-
               <IonHeader>
                 <IonToolbar>
                   <IonTitle>Menu Content</IonTitle>
