@@ -50,23 +50,15 @@ function App() {
 
           Use the component prop when your component depends on the RouterComponentProps passed in automatically.
         */}
-            <Route path="/home" render={() => <HomePage />} exact={true} />
+            <Route path="/" render={() => <HomePage />} exact={true} />
             <Route path="/products" render={() => <Products />} exact={true} />
             <Route path="/contact" render={() => <Contact />} exact={true} />
-            <Route
-              path="/bikeTrails"
-              render={() => <bikeTrails />}
-              exact={true}
-            />
-            <Route
-              path="/photoGallery"
-              render={() => <photoGallery />}
-              exact={true}
-            />
+            <Route path="/bikeTrails" render={() => <bikeTrails />} exact={true} />
+            <Route path="/photoGallery" render={() => <photoGallery />} exact={true} />
           </IonRouterOutlet>
 
           <IonTabBar slot="bottom">
-            <IonTabButton tab="home" href="/home">
+            <IonTabButton tab="home" href="/">
               <IonIcon icon={playCircle} />
               <IonLabel>Home</IonLabel>
             </IonTabButton>
@@ -83,17 +75,17 @@ function App() {
 
             <IonTabButton tab="bikeTrails" href="/bikeTrails">
               <IonIcon icon={radio} />
-              <IonLabel>Search</IonLabel>
+              <IonLabel>Bike Trails</IonLabel>
             </IonTabButton>
 
             <IonTabButton tab="photoGallery" href="/photoGallery">
               <IonIcon icon={radio} />
-              <IonLabel>photoGallery</IonLabel>
+              <IonLabel>Photo Gallery</IonLabel>
             </IonTabButton>
           </IonTabBar>
         </IonTabs>
       </IonReactRouter>
-
+ 
       {/* <HomePage></HomePage>
       <Products></Products>
       <Contact></Contact>
