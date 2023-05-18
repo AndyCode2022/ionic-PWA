@@ -1,28 +1,31 @@
 import React from 'react';
 import { IonCard, IonCardHeader, IonCardContent, IonCardSubtitle, IonCardTitle, IonPage, IonContent } from '@ionic/react';
 
-const productOne = () => (
+import product8 from '../images/product8.jpg';
+
+const productEight = () => (
 
     <>
 
         <IonCol>
-            <IonCard color="primary">
+
+            <IonCard color="medium">
                 <IonCardHeader>
-                    <IonCardTitle>Kraken Vengence</IonCardTitle>
+                    <IonCardTitle>Joker Supreme</IonCardTitle>
                     <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-                    <IonImg src={product1} alt="black bike"></IonImg>
+                    <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
                 </IonCardHeader>
-                    
+
                 <IonCardContent>
-                    <h2>test</h2>
                     Card Content
                 </IonCardContent>
                 <ion-button href="/components/product">Purchase</ion-button>
             </IonCard>
+
         </IonCol>
 
     </>
 
 );
 
-export default productOne;
+export default productEight;

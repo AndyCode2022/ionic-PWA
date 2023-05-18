@@ -23,14 +23,10 @@ import {
 import HomePage from "./pages/HomePage";
 import Products from "./pages/products";
 import Contact from "./pages/contact";
-import photoGallery from "./pages/photoGallery";
-import bikeTrails from "./pages/bikeTrails";
+import PhotoGallery from "./pages/photoGallery";
+import BikeTrails from "./pages/bikeTrails";
 
 import { IonReactRouter } from "@ionic/react-router";
-
-// import { withRouter } from "react-router-dom";
-
-// ion router might not work on college pc. Might need to install again.
 
 import { Route, Redirect } from "react-router";
 
@@ -53,8 +49,8 @@ function App() {
             <Route path="/" render={() => <HomePage />} exact={true} />
             <Route path="/products" render={() => <Products />} exact={true} />
             <Route path="/contact" render={() => <Contact />} exact={true} />
-            <Route path="/bikeTrails" render={() => <bikeTrails />} exact={true} />
-            <Route path="/photoGallery" render={() => <photoGallery />} exact={true} />
+            <Route path="/bikeTrails" render={() => <BikeTrails />} exact={true} />
+            <Route path="/photoGallery" render={() => <PhotoGallery />} exact={true} />
           </IonRouterOutlet>
 
           <IonTabBar slot="bottom">
@@ -93,13 +89,6 @@ function App() {
       <Contact></Contact>
       <bikeTrails></bikeTrails>
       <photoGallery></photoGallery> */}
-
-      {/* <IonCard>
-        <IonCardHeader>
-          <IonCardTitle></IonCardTitle>
-          <IonCardSubtitle></IonCardSubtitle>
-        </IonCardHeader>
-      </IonCard> */}
     </>
   );
 }

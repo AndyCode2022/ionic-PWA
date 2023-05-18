@@ -1,16 +1,18 @@
 import React from 'react';
 import { IonCard, IonCardHeader, IonCardContent, IonCardSubtitle, IonCardTitle, IonPage, IonContent } from '@ionic/react';
 
+import product4 from '../images/product4.jpg';
+
 const productFour = () => (
 
     <>
 
         <IonCol>
-            <IonCard color="primary">
+            <IonCard color="success">
                 <IonCardHeader>
-                    <IonCardTitle>Kraken Vengence</IonCardTitle>
-                    <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-                    <IonImg src={product1} alt="black bike"></IonImg>
+                    <IonCardTitle>Voodini ark</IonCardTitle>
+                    <IonCardSubtitle>For the bike enthusiasts</IonCardSubtitle>
+                    <IonImg src={product4} alt="black bike"></IonImg>
                 </IonCardHeader>
 
                 <IonCardContent>

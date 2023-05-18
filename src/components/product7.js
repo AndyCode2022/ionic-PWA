@@ -1,18 +1,19 @@
 import React from 'react';
 import { IonCard, IonCardHeader, IonCardContent, IonCardSubtitle, IonCardTitle, IonPage, IonContent } from '@ionic/react';
 
-import product3 from '../images/product3.jpg';
+import product7 from '../images/product7.jpg';
 
-const productThree = () => (
+const productSeven = () => (
 
     <>
 
         <IonCol>
-            <IonCard color="tertiary">
+
+            <IonCard color="light">
                 <IonCardHeader>
-                    <IonCardTitle>Turbo Swift</IonCardTitle>
-                    <IonCardSubtitle>For quick journies</IonCardSubtitle>
-                    <IonImg src={product3} alt="black bike"></IonImg>
+                    <IonCardTitle>Hades</IonCardTitle>
+                    <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+                    <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
                 </IonCardHeader>
 
                 <IonCardContent>
@@ -20,10 +21,11 @@ const productThree = () => (
                 </IonCardContent>
                 <ion-button href="/components/product">Purchase</ion-button>
             </IonCard>
+
         </IonCol>
 
     </>
 
 );
 
-export default productThree;
+export default productSeven;
