@@ -1,5 +1,5 @@
 import React from 'react';
-import { IonCard, IonCardHeader, IonCardContent, IonCardSubtitle, IonCardTitle, IonPage, IonContent } from '@ionic/react';
+import { IonCard, IonCardHeader, IonCardContent, IonCardSubtitle, IonCardTitle, IonImg, IonCol } from '@ionic/react';
 
 import product8 from '../images/product8.jpg';
 
@@ -13,7 +13,7 @@ const productEight = () => (
                 <IonCardHeader>
                     <IonCardTitle>Joker Supreme</IonCardTitle>
                     <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-                    <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+                    <IonImg src={product8} alt="black bike"></IonImg>
                 </IonCardHeader>
 
                 <IonCardContent>

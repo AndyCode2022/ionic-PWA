@@ -8,6 +8,7 @@ import logo from '../images/logo.jpg';
 // import bikeTrails1 from "../images/bikeTrails1.jpg";
 // import bikeTrails2 from "../images/bikeTrails2.jpg";
 
+import Menu from '../components/menu';
 import Card from '../components/card';
 
 function Subscribe() {
@@ -35,56 +36,37 @@ Notification.requestPermission().then((result) => {
 
 const HomePage = () => (
   <>
-    <IonPage>
-      <IonContent>
+    <Menu></Menu>
 
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
+    <IonPage id="main-content">
+
+      <IonHeader>
+        <IonToolbar>
+          <IonButtons slot="start">
+            <IonMenuButton></IonMenuButton>
+          </IonButtons>
+          <IonTitle>Menu</IonTitle>
+        </IonToolbar>
+      </IonHeader>
+
+      <IonContent>
 
         <IonButton onClick={Subscribe}>
           Subscribe to notifications
         </IonButton>
+
         <div className="App">
           <header className="App-header">
-           <card></card>
-            <IonMenu contentId="main-content">
-          
-              <IonHeader>
-                <IonToolbar>
-                  <IonTitle>Menu Content</IonTitle>
-                </IonToolbar>
-              </IonHeader>
 
-              <IonContent className="ion-padding">This is the menu content.</IonContent>
-              <a href="index.html">Home</a>
-              <a href="products.html">Products</a>
-              <a href="contact.html">Contact</a>
-              <a href="photoGallery.html">Photo Gallery</a>
-              <a href="mapTrails.html">Map Trails</a>
+            <h1>Bike King Borders</h1>
 
-            </IonMenu>
-
-            <IonPage id="main-content">
-              <IonHeader>
-                <IonToolbar>
-                  <IonButtons slot="start">
-                    <IonMenuButton></IonMenuButton>
-                  </IonButtons>
-                   <img src={logo} className="App-logo" alt="logo" /> 
-                </IonToolbar>
-              </IonHeader>
-              <IonContent className="ion-padding">
-
-        
-
-                <h1>Bike King Borders</h1>
-              </IonContent>
-            </IonPage>
             <IonImg src={image1} alt="bike image"></IonImg>
           </header>
         </div>
       </IonContent>
+
+
+
     </IonPage>
   </>
 );

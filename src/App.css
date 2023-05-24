@@ -43,6 +43,22 @@ a {
   list-style-type: none;
 }
 
+/* Map styling for photo gallery page */
+
+.map {
+  aspect-ratio: 9 / 16;
+}
+
+@media only screen and (min-width: 600px) {
+  .map {
+    aspect-ratio: 16 / 9;
+  }
+
+}
+
+
+@media only screen and (min-width: 1200px) {}
+
 /* Products */
 
 /* iOS places the subtitle above the title */
@@ -59,17 +75,17 @@ a {
    Allow media queries to make the grid change at different sizes.
    Add in flex. */
 
-   @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
   }
+}
 
-  /* Footer */
+/* Footer */
 
-  footer {
-    margin: auto;
-    padding: 20px;
-    font-size: 20px;
-    color: red;
-  }
+footer {
+  margin: auto;
+  padding: 20px;
+  font-size: 20px;
+  color: red;
+}

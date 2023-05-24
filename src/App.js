@@ -8,7 +8,7 @@ import "./App.css";
 // import * as Notifications from 'expo-notifications';
 import "@ionic/react/css/core.css";
 import { defineCustomElements } from "@ionic/pwa-elements/loader";
-import { setupIonicReact, IonImg, IonCardSubtitle } from "@ionic/react";
+import { setupIonicReact, IonImg, IonCardSubtitle, IonMenu, IonHeader, IonToolbar, IonTitle, IonContent } from "@ionic/react";
 import {
   IonTabs,
   IonTabBar,
@@ -37,6 +37,9 @@ function App() {
   defineCustomElements(window);
   return (
     <>
+
+
+
       <IonReactRouter>
         <IonTabs>
           <IonRouterOutlet>
@@ -52,6 +55,10 @@ function App() {
             <Route path="/bikeTrails" render={() => <BikeTrails />} exact={true} />
             <Route path="/photoGallery" render={() => <PhotoGallery />} exact={true} />
           </IonRouterOutlet>
+
+
+
+
 
           <IonTabBar slot="bottom">
             <IonTabButton tab="home" href="/">
@@ -84,11 +91,8 @@ function App() {
 
       </IonReactRouter>
 
-      {/* <HomePage></HomePage>
-      <Products></Products>
-      <Contact></Contact>
-      <bikeTrails></bikeTrails>
-      <photoGallery></photoGallery> */}
+     
+
     </>
   );
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { IonImg, IonCard, IonCardHeader, IonCardTitle, IonCardSubtitle, IonCardContent, IonPage, IonContent } from '@ionic/react';
+import { IonImg, IonCard, IonCardHeader, IonCardTitle, IonCardSubtitle, IonCardContent, IonPage, IonContent, IonHeader, IonToolbar, IonButtons, IonMenuButton, IonTitle } from '@ionic/react';
 // social media logos
 import Facebook_logo from '../images/Facebook_logo.png';
 import Instagram_logo from '../images/Instagram_logo.png';
@@ -8,10 +8,24 @@ import youtube_logo from '../images/youtube_logo.png';
 import image2 from '../images/image2.jpg';
 import { IonGrid, IonRow } from '@ionic/react';
 
-const contact = () => (
+import Menu from '../components/menu';
 
-  <IonPage>
+const contact = () => (
+<> 
+<Menu></Menu>
+<IonPage id="main-content">
+
+  <IonHeader>
+          <IonToolbar>
+            <IonButtons slot="start">
+              <IonMenuButton></IonMenuButton>
+            </IonButtons>
+            <IonTitle>Menu</IonTitle>
+          </IonToolbar>
+        </IonHeader>
+
     <IonContent>
+     
       <IonCard>
         <IonCardHeader>
           <IonCardTitle>Card Title</IonCardTitle>
@@ -63,7 +77,7 @@ const contact = () => (
 
     </IonContent>
   </IonPage>
-
+  </>
 
 );
 
