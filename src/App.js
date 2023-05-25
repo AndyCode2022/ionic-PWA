@@ -37,9 +37,7 @@ function App() {
   defineCustomElements(window);
   return (
     <>
-
-
-
+    
       <IonReactRouter>
         <IonTabs>
           <IonRouterOutlet>
@@ -55,10 +53,6 @@ function App() {
             <Route path="/bikeTrails" render={() => <BikeTrails />} exact={true} />
             <Route path="/photoGallery" render={() => <PhotoGallery />} exact={true} />
           </IonRouterOutlet>
-
-
-
-
 
           <IonTabBar slot="bottom">
             <IonTabButton tab="home" href="/">
@@ -90,8 +84,6 @@ function App() {
         </IonTabs>
 
       </IonReactRouter>
-
-     
 
     </>
   );

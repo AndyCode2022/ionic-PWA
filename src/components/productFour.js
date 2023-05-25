@@ -16,7 +16,7 @@ const productFour = () => (
                 </IonCardHeader>
 
                 <IonCardContent>
-                    Card Content
+                    Show your friends style!
                 </IonCardContent>
                 <ion-button href="/components/product">Purchase</ion-button>
             </IonCard>

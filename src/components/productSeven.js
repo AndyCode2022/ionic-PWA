@@ -12,13 +12,12 @@ const productSeven = () => (
             <IonCard color="light">
                 <IonCardHeader>
                     <IonCardTitle>Hades</IonCardTitle>
-                    <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+                    <IonCardSubtitle>As hot as the volcano</IonCardSubtitle>
                     <IonImg src={product7} alt="black bike"></IonImg>
-                    {/* <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" /> */}
                 </IonCardHeader>
 
                 <IonCardContent>
-                    Card Content
+                    Has the power of hades
                 </IonCardContent>
                 <ion-button href="/components/product">Purchase</ion-button>
             </IonCard>

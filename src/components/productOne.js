@@ -11,13 +11,13 @@ const productOne = () => (
             <IonCard color="primary">
                 <IonCardHeader>
                     <IonCardTitle>Kraken Vengence</IonCardTitle>
-                    <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+                    <IonCardSubtitle>Kraken power!</IonCardSubtitle>
                     <IonImg src={product1} alt="black bike"></IonImg>
                 </IonCardHeader>
                     
                 <IonCardContent>
                     <h2>test</h2>
-                    Card Content
+                    Get this bike for power!
                 </IonCardContent>
                 <ion-button href="/components/product">Purchase</ion-button>
             </IonCard>
