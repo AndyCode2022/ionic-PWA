@@ -44,7 +44,7 @@ const product = () => (
                     <ion-button href="/pages/krakenVengeance">Purchase</ion-button>
                 </IonCard>
 
-                <h1>Bike King Borders</h1>
+
                 <IonGrid>
                     <IonRow>
 

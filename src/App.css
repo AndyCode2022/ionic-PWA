@@ -4,13 +4,17 @@ html {
   --light-colour: white;
 }
 
+ion-card {
+  background-color: red;
+}
+
 ion-card-title, ion-card-subtitle, ion-card-content, h1 {
   color: white;
 }
 
 @media (prefers-color-scheme: dark) {
   html {
-    --light-colour: black;
+    --light-colour: white;
   }
   
 }

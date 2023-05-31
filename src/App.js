@@ -1,6 +1,4 @@
 import React from "react";
-import logo from "./images/logo.jpg";
-import image2 from "./images/image2.jpg";
 
 // bike trail images
 
@@ -8,7 +6,7 @@ import "./App.css";
 // import * as Notifications from 'expo-notifications';
 import "@ionic/react/css/core.css";
 import { defineCustomElements } from "@ionic/pwa-elements/loader";
-import { setupIonicReact, IonImg, IonCardSubtitle, IonMenu, IonHeader, IonToolbar, IonTitle, IonContent } from "@ionic/react";
+import { setupIonicReact } from "@ionic/react";
 import {
   IonTabs,
   IonTabBar,
@@ -16,7 +14,6 @@ import {
   IonIcon,
   IonLabel,
   IonRouterOutlet,
-  IonButton,
 } from "@ionic/react";
 
 // import { useState, useEffect, AsyncStorage } from "react";
@@ -28,9 +25,9 @@ import BikeTrails from "./pages/bikeTrails";
 
 import { IonReactRouter } from "@ionic/react-router";
 
-import { Route, Redirect } from "react-router";
+import { Route } from "react-router";
 
-import { playCircle, radio, addSharp, trailSign, bag, chatboxEllipses } from "ionicons/icons";
+import { homeOutline, bag, chatboxEllipses, imagesOutline, trailSign } from "ionicons/icons";
 
 function App() {
   setupIonicReact();
@@ -56,7 +53,7 @@ function App() {
 
           <IonTabBar slot="bottom">
             <IonTabButton tab="home" href="/~14023216/react/">
-              <IonIcon icon={playCircle} />
+              <IonIcon icon={homeOutline} />
               <IonLabel>Home</IonLabel>
             </IonTabButton>
 
@@ -71,7 +68,7 @@ function App() {
             </IonTabButton>
 
             <IonTabButton tab="bikeTrails" href="/~14023216/react/bikeTrails">
-              <IonIcon icon={trailSign} />
+              <IonIcon icon={imagesOutline} />
               <IonLabel>Photo Gallery</IonLabel>
             </IonTabButton>
 
