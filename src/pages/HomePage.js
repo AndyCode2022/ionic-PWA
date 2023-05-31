@@ -61,7 +61,7 @@ const HomePage = () => (
 
             <h1>Bike King Borders</h1>
 
-            <IonImg src={image1} alt="bike image"></IonImg>
+            <IonImg src={image1} alt="bike image with man on bike going through bike trails"></IonImg>
           </header>
         </div>
       </IonContent>

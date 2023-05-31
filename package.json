@@ -1,7 +1,7 @@
 {
   "name": "Bike-King-Borders",
   "version": "0.1.0",
-  "homepage": "https://comp-server.uhi.ac.uk/_14023216/react/",
+  "homepage": "https://comp-server.uhi.ac.uk/~14023216/react/",
   "private": true,
   "dependencies": {
     "@capacitor/google-maps": "^4.5.0",

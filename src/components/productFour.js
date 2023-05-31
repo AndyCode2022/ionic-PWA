@@ -12,7 +12,7 @@ const productFour = () => (
                 <IonCardHeader>
                     <IonCardTitle>Voodini ark</IonCardTitle>
                     <IonCardSubtitle>For the bike enthusiasts</IonCardSubtitle>
-                    <IonImg src={product4} alt="black bike"></IonImg>
+                    <IonImg src={product4} alt="green and white bike lying against a tree."></IonImg>
                 </IonCardHeader>
 
                 <IonCardContent>

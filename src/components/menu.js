@@ -16,11 +16,11 @@ const Menu = () => {
                 </IonHeader> */}
 
                 <IonContent className="ion-padding" >
-                    <IonButton expand="full" fill="clear" href="/">Home</IonButton>
-                    <IonButton expand="full" fill="clear" href="/products">Products</IonButton>
-                    <IonButton expand="full" fill="clear" href="/contact">Contact</IonButton>
-                    <IonButton expand="full" fill="clear" href="/bikeTrails">Bike Trails</IonButton>
-                    <IonButton expand="full" fill="clear" href="/photoGallery">Photo Gallery</IonButton>
+                    <IonButton expand="full" fill="clear" href="/~14023216/react/">Home</IonButton>
+                    <IonButton expand="full" fill="clear" href="/~14023216/react/products">Products</IonButton>
+                    <IonButton expand="full" fill="clear" href="/~14023216/react/contact">Contact</IonButton>
+                    <IonButton expand="full" fill="clear" href="/~14023216/react/bikeTrails">Bike Trails</IonButton>
+                    <IonButton expand="full" fill="clear" href="/~14023216/react/photoGallery">Photo Gallery</IonButton>
 
                 </IonContent>
 

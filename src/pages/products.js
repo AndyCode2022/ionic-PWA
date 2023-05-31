@@ -32,7 +32,7 @@ const product = () => (
             <IonContent>
 
                 <IonCard>
-                    <IonImg src={mainProduct} alt="Black Bike"></IonImg>
+                    <IonImg src={mainProduct} alt="Black Bike in air with man on it doing a stunt."></IonImg>
                     <IonCardHeader>
                         <IonCardTitle>Carera Master</IonCardTitle>
                         <IonCardSubtitle>Cost: £350</IonCardSubtitle>

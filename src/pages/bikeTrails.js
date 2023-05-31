@@ -21,7 +21,7 @@ const bikeTrails = () => (
 
       <IonContent>
      
-        <IonImg src={bikeTrails1} alt="bikeTrail"></IonImg>
+        <IonImg src={bikeTrails1} alt="bikeTrail image features bumpy dirt tracks and trees"></IonImg>
 
         <IonCard>
           <IonCardHeader>
@@ -36,7 +36,7 @@ const bikeTrails = () => (
 
 
 
-        <IonImg src={bikeTrails2} alt="bikeTrail"></IonImg>
+        <IonImg src={bikeTrails2} alt="bikeTrail image features bumpy dirt tracks and trees"></IonImg>
 
         <IonCard>
           <IonCardHeader>

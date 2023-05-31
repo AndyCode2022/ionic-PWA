@@ -1,6 +1,6 @@
 import React from "react";
-// import logo from "./images/logo.jpg";
-// import image2 from "./images/image2.jpg";
+import logo from "./images/logo.jpg";
+import image2 from "./images/image2.jpg";
 
 // bike trail images
 
@@ -30,7 +30,7 @@ import { IonReactRouter } from "@ionic/react-router";
 
 import { Route, Redirect } from "react-router";
 
-import { playCircle, radio, contact, addSharp } from "ionicons/icons";
+import { playCircle, radio, addSharp, trailSign, bag, chatboxEllipses } from "ionicons/icons";
 
 function App() {
   setupIonicReact();
@@ -47,37 +47,37 @@ function App() {
 
           Use the component prop when your component depends on the RouterComponentProps passed in automatically.
         */}
-            <Route path="/" render={() => <HomePage />} exact={true} />
-            <Route path="/products" render={() => <Products />} exact={true} />
-            <Route path="/contact" render={() => <Contact />} exact={true} />
-            <Route path="/bikeTrails" render={() => <BikeTrails />} exact={true} />
-            <Route path="/photoGallery" render={() => <PhotoGallery />} exact={true} />
+            <Route path="/~14023216/react/" render={() => <HomePage />} exact={true} />
+            <Route path="/~14023216/react/products" render={() => <Products />} exact={true} />
+            <Route path="/~14023216/react/contact" render={() => <Contact />} exact={true} />
+            <Route path="/~14023216/react/bikeTrails" render={() => <BikeTrails />} exact={true} />
+            <Route path="/~14023216/react/photoGallery" render={() => <PhotoGallery />} exact={true} />
           </IonRouterOutlet>
 
           <IonTabBar slot="bottom">
-            <IonTabButton tab="home" href="/">
+            <IonTabButton tab="home" href="/~14023216/react/">
               <IonIcon icon={playCircle} />
               <IonLabel>Home</IonLabel>
             </IonTabButton>
 
-            <IonTabButton tab="products" href="/products">
-              <IonIcon icon={radio} />
+            <IonTabButton tab="products" href="/~14023216/react/products">
+              <IonIcon icon={bag} />
               <IonLabel>Products</IonLabel>
             </IonTabButton>
 
-            <IonTabButton tab="contact" href="/contact">
-              <IonIcon icon={addSharp} />
+            <IonTabButton tab="contact" href="/~14023216/react/contact">
+              <IonIcon icon={chatboxEllipses} />
               <IonLabel>Contact</IonLabel>
             </IonTabButton>
 
-            <IonTabButton tab="bikeTrails" href="/bikeTrails">
-              <IonIcon icon={radio} />
-              <IonLabel>Bike Trails</IonLabel>
+            <IonTabButton tab="bikeTrails" href="/~14023216/react/bikeTrails">
+              <IonIcon icon={trailSign} />
+              <IonLabel>Photo Gallery</IonLabel>
             </IonTabButton>
 
-            <IonTabButton tab="photoGallery" href="/photoGallery">
-              <IonIcon icon={radio} />
-              <IonLabel>Photo Gallery</IonLabel>
+            <IonTabButton tab="photoGallery" href="/~14023216/react/photoGallery">
+              <IonIcon icon={trailSign} />
+              <IonLabel>Bike Trails</IonLabel>
             </IonTabButton>
           </IonTabBar>
 

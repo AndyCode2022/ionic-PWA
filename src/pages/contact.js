@@ -58,14 +58,14 @@ const contact = () => (
           </IonCardSubtitle>
         </IonCard>
 
-        <IonImg src={image2} alt="Silhouette of mountains"></IonImg>
+        <IonImg src={image2} alt="Silhouette of mountains, grass, and man with a bike"></IonImg>
 
         <IonGrid>
           <IonRow>
-            <IonImg class="img_logos" src={Facebook_logo} alt="Facebook logo"></IonImg>
-            <IonImg class="img_logos" src={Instagram_logo} alt="Instagram logo"></IonImg>
-            <IonImg class="img_logos" src={tripadvisor_logo} alt="TripAdvisor logo"></IonImg>
-            <IonImg class="img_logos" src={youtube_logo} alt="Youtube logo"></IonImg>
+            <IonImg class="img_logos" src={Facebook_logo} alt="Facebook logo, blue and white"></IonImg>
+            <IonImg class="img_logos" src={Instagram_logo} alt="Instagram logo, pink and white"></IonImg>
+            <IonImg class="img_logos" src={tripadvisor_logo} alt="TripAdvisor logo, bird with red and green eyes plus tripadvisor title"></IonImg>
+            <IonImg class="img_logos" src={youtube_logo} alt="Youtube logo, black and red with youtube name in logo"></IonImg>
           </IonRow>
         </IonGrid>
 
