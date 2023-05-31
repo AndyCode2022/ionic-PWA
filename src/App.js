@@ -56,10 +56,6 @@ function App() {
             <Route path="/photoGallery" render={() => <PhotoGallery />} exact={true} />
           </IonRouterOutlet>
 
-
-
-
-
           <IonTabBar slot="bottom">
             <IonTabButton tab="home" href="/">
               <IonIcon icon={playCircle} />
