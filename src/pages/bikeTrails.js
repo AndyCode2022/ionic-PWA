@@ -30,7 +30,7 @@ const bikeTrails = () => (
           </IonCardHeader>
 
           <IonCardContent>
-            Here's a small text description for the card content. Nothing more, nothing less.
+            Here you will find excitement and fullfillment. Come to our trail now!
           </IonCardContent>
         </IonCard>
 
@@ -40,12 +40,12 @@ const bikeTrails = () => (
 
         <IonCard>
           <IonCardHeader>
-            <IonCardTitle>Card Title</IonCardTitle>
-            <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+            <IonCardTitle>Forest tracks</IonCardTitle>
+            <IonCardSubtitle>Trees and the wildlife</IonCardSubtitle>
           </IonCardHeader>
 
           <IonCardContent>
-            Here's a small text description for the card content. Nothing more, nothing less.
+            On this track you will find rabbits, deers, and all sorts of wildlife!
           </IonCardContent>
         </IonCard>
 

@@ -16,7 +16,7 @@ const productFive = () => (
                 </IonCardHeader>
 
                 <IonCardContent>
-                    Card Content
+                    £500
                 </IonCardContent>
                 <ion-button href="/components/product">Purchase</ion-button>
             </IonCard>

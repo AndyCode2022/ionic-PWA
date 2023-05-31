@@ -1,5 +1,3 @@
-
-
 const button = document.getElementById("notifications");
 button.addEventListener("click", () => {
   Notification.requestPermission().then((result) => {
@@ -22,3 +20,10 @@ function randomNotification() {
     setTimeout(randomNotification, 30000);
   }
   
+navigator.serviceWorker.register("service-worker.js").then((registration) => {
+  return registration.pushManager.getSubscription().then(/* ... */);
+});
+
+self.addEventListener("push", (e) => {
+  /* ... */
+});

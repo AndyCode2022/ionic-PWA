@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "./images/logo.jpg";
-import image2 from "./images/image2.jpg";
+// import logo from "./images/logo.jpg";
+// import image2 from "./images/image2.jpg";
 
 // bike trail images
 
@@ -37,9 +37,7 @@ function App() {
   defineCustomElements(window);
   return (
     <>
-
-
-
+    
       <IonReactRouter>
         <IonTabs>
           <IonRouterOutlet>
@@ -86,8 +84,6 @@ function App() {
         </IonTabs>
 
       </IonReactRouter>
-
-     
 
     </>
   );
