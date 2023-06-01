@@ -62,18 +62,30 @@ const contact = () => (
 
         <IonGrid class="socialLinks">
           <IonRow>
-            <a href="https://en-gb.facebook.com/" target="_blank">
-            <IonImg class="img_logos" src={Facebook_logo} alt="Facebook logo, blue and white"></IonImg>
-            </a>
-            <a href="https://www.instagram.com/" target="_blank">
-            <IonImg class="img_logos" src={Instagram_logo} alt="Instagram logo, pink and white"></IonImg>
-            </a>
-            <a href="https://www.tripadvisor.co.uk/" target="_blank">
-            <IonImg class="img_logos" src={tripadvisor_logo} alt="TripAdvisor logo, bird with red and green eyes plus tripadvisor title"></IonImg>
-            </a>
-            <a href="https://www.youtube.com/?gl=GB&hl=en-GB" target="_blank">
-            <IonImg class="img_logos" src={youtube_logo} alt="Youtube logo, black and red with youtube name in logo"></IonImg>
-            </a>
+            <ul>
+              <li>
+                <a href="https://en-gb.facebook.com/" target="_blank">
+                  <img class="img_logos" src={Facebook_logo} alt="Facebook logo, blue and white"></img>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/" target="_blank">
+                  <img class="img_logos" src={Instagram_logo} alt="Instagram logo, pink and white"></img>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.tripadvisor.co.uk/" target="_blank">
+                  <img class="img_logos" src={tripadvisor_logo} alt="TripAdvisor logo, bird with red and green eyes plus tripadvisor title"></img>
+                </a>
+              </li>
+              {/* <div class="youtube"> */}
+              <li>
+                <a href="https://www.youtube.com/?gl=GB&hl=en-GB" target="_blank">
+                  <img class="img_logos" src={youtube_logo} alt="Youtube logo, black and red with youtube name in logo"></img>
+                </a>
+              </li>
+              {/* </div> */}
+            </ul>
           </IonRow>
         </IonGrid>
 

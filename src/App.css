@@ -21,11 +21,16 @@ ion-card-title, ion-card-subtitle, ion-card-content, h1 {
 
 img {
   width: 100%;
-  height: 100%
+  height: 100%;
+  float: right;
 }
 
 .img_logos {
-  width: 20%;
+  width: 30%;
+}
+
+.youtube {
+  float: right;
 }
 
 .App {
@@ -67,6 +72,10 @@ ul {
 a {
   text-decoration: none;
   list-style-type: none;
+}
+
+ion-button {
+  color: white;
 }
 
 /* Map styling for photo gallery page */
