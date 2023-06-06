@@ -26,10 +26,8 @@ img {
 }
 
 .img_logos {
-  width: 30%;
-}
-
-.youtube {
+  display: block;
+  width: 25%;
   float: right;
 }
 
@@ -116,9 +114,6 @@ ion-button {
 
 /* contact page */
 
-.socialLinks {
-  margin-left: 200px;
-}
 
 /* Footer */
 
